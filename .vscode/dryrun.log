@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/kamal/Work/IITH/Semester 2/Courses/5. Visual Computing/FedIRM'
+CUDA_VISIBLE_DEVICES=6 python train_main.py 
+make: Leaving directory '/media/kamal/Work/IITH/Semester 2/Courses/5. Visual Computing/FedIRM'
+ 

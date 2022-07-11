@@ -1,0 +1,30 @@
+├── options.py
+│
+├── dataloaders
+│   └── dataset.py
+│
+├── models
+│   └── hub
+│       └── checkpoints
+│           └── densenet121.pth
+│ 
+├── networks
+│   ├── densenet.py
+│   └── models.py
+│ 
+├── confuse_matrix.py
+│ 
+├── utils
+│   ├── losses.py
+│   └── metrics.py
+│  
+├── local_supervised.py
+├── local_unsupervised.py
+│ 
+├── FedAvg.py
+│
+├── train_main.py
+└── test.py
+
+
+

@@ -1,0 +1,2347 @@
+[07:14:08.097] Namespace(base_lr=0.001, batch_size=48, consistency=1, consistency_rampup=30, csv_file_test='/research/pheng4/qdliu/hzyang/flsemi/adam/testing.csv', csv_file_train='dataset/stage_1_train.csv', csv_file_val='dataset/validation.csv', deterministic=1, drop_rate=0.2, ema_consistency=1, ema_decay=0.99, global_step=0, gpu='0,1', label_uncertainty='U-Ones', local_ep=2, num_users=10, resume=None, root_path='dataset/stage_1_train_images', rounds=200, seed=1337, start_epoch=0)
+[07:14:10.212] Training Data Size: 5000
+[07:14:14.179] 
+Begin: com_round = 0
+
+[07:14:14.179] Supervised Client: 0
+[07:14:14.179] --
+[07:14:32.586] Supervised Client: 1
+[07:14:32.586] --
+[07:14:52.162] Loss Avg: 0.9906394197182222, Common Round: 0, LR: 0.001 
+[07:14:57.637] TEST AUROC: 0.508789, TEST Accus: 0.540000, F1: 0.602467
+[07:14:57.638] 
+Begin: com_round = 1
+
+[07:14:57.638] Supervised Client: 0
+[07:14:57.638] --
+[07:15:15.010] Supervised Client: 1
+[07:15:15.010] --
+[07:15:32.904] Loss Avg: 0.7909119034355336, Common Round: 1, LR: 0.001 
+[07:15:37.975] TEST AUROC: 0.439676, TEST Accus: 0.630000, F1: 0.618532
+[07:15:37.975] 
+Begin: com_round = 2
+
+[07:15:37.976] Supervised Client: 0
+[07:15:37.976] --
+[07:15:56.298] Supervised Client: 1
+[07:15:56.298] --
+[07:16:15.295] Loss Avg: 0.7835286936976693, Common Round: 2, LR: 0.001 
+[07:16:20.802] TEST AUROC: 0.508807, TEST Accus: 0.450000, F1: 0.586124
+[07:16:20.803] 
+Begin: com_round = 3
+
+[07:16:20.803] Supervised Client: 0
+[07:16:20.803] --
+[07:16:37.936] Supervised Client: 1
+[07:16:37.936] --
+[07:16:55.460] Loss Avg: 0.7831316807053306, Common Round: 3, LR: 0.001 
+[07:17:00.764] TEST AUROC: 0.457869, TEST Accus: 0.650000, F1: 0.622066
+[07:17:00.765] 
+Begin: com_round = 4
+
+[07:17:00.765] Supervised Client: 0
+[07:17:00.765] --
+[07:17:18.496] Supervised Client: 1
+[07:17:18.497] --
+[07:17:36.138] Loss Avg: 0.7828454050150785, Common Round: 4, LR: 0.001 
+[07:17:41.372] TEST AUROC: 0.521778, TEST Accus: 0.620000, F1: 0.616761
+[07:17:41.373] 
+Begin: com_round = 5
+
+[07:17:41.373] Supervised Client: 0
+[07:17:41.373] --
+[07:17:59.440] Supervised Client: 1
+[07:17:59.441] --
+[07:18:19.030] Loss Avg: 0.7827716022729874, Common Round: 5, LR: 0.001 
+[07:18:24.431] TEST AUROC: 0.467860, TEST Accus: 0.550000, F1: 0.604265
+[07:18:24.432] 
+Begin: com_round = 6
+
+[07:18:24.432] Supervised Client: 0
+[07:18:24.432] --
+[07:18:41.284] Supervised Client: 1
+[07:18:41.285] --
+[07:18:58.936] Loss Avg: 0.7824934287504716, Common Round: 6, LR: 0.001 
+[07:19:04.096] TEST AUROC: 0.465825, TEST Accus: 0.490000, F1: 0.593422
+[07:19:04.097] 
+Begin: com_round = 7
+
+[07:19:04.097] Supervised Client: 0
+[07:19:04.097] --
+[07:19:21.778] Supervised Client: 1
+[07:19:21.778] --
+[07:19:39.693] Loss Avg: 0.7824979776685888, Common Round: 7, LR: 0.001 
+[07:19:44.887] TEST AUROC: 0.570544, TEST Accus: 0.720000, F1: 0.634328
+[07:19:44.888] 
+Begin: com_round = 8
+
+[07:19:44.888] Supervised Client: 0
+[07:19:44.888] --
+[07:20:02.537] Supervised Client: 1
+[07:20:02.537] --
+[07:20:20.121] Loss Avg: 0.7823848480528052, Common Round: 8, LR: 0.001 
+[07:20:25.495] TEST AUROC: 0.512433, TEST Accus: 0.530000, F1: 0.600665
+[07:20:25.495] 
+Begin: com_round = 9
+
+[07:20:25.496] Supervised Client: 0
+[07:20:25.496] --
+[07:20:43.809] Supervised Client: 1
+[07:20:43.810] --
+[07:21:01.102] Loss Avg: 0.7824267460541291, Common Round: 9, LR: 0.001 
+[07:21:06.293] TEST AUROC: 0.618759, TEST Accus: 0.600000, F1: 0.613208
+[07:21:06.294] 
+Begin: com_round = 10
+
+[07:21:06.294] Supervised Client: 0
+[07:21:06.294] --
+[07:21:24.802] Supervised Client: 1
+[07:21:24.802] --
+[07:21:41.070] Loss Avg: 0.7821546643972397, Common Round: 10, LR: 0.001 
+[07:21:46.312] TEST AUROC: 0.420390, TEST Accus: 0.560000, F1: 0.606061
+[07:21:46.313] 
+Begin: com_round = 11
+
+[07:21:46.313] Supervised Client: 0
+[07:21:46.313] --
+[07:22:04.625] Supervised Client: 1
+[07:22:04.625] --
+[07:22:24.057] Semi-Supervised Client: 2
+[07:22:24.058] --
+[07:22:58.732] Semi-Supervised Client: 3
+[07:22:58.733] --
+[07:23:31.473] Semi-Supervised Client: 4
+[07:23:31.474] --
+[07:24:05.508] Semi-Supervised Client: 5
+[07:24:05.508] --
+[07:24:40.279] Semi-Supervised Client: 6
+[07:24:40.279] --
+[07:25:13.490] Semi-Supervised Client: 7
+[07:25:13.490] --
+[07:25:47.627] Semi-Supervised Client: 8
+[07:25:47.628] --
+[07:26:22.386] Semi-Supervised Client: 9
+[07:26:22.386] --
+[07:26:57.335] Loss Avg: 0.18685051850784065, Common Round: 11, LR: 0.001 
+[07:27:02.514] TEST AUROC: 0.381514, TEST Accus: 0.440000, F1: 0.584291
+[07:27:02.514] 
+Begin: com_round = 12
+
+[07:27:02.515] Supervised Client: 0
+[07:27:02.515] --
+[07:27:20.909] Supervised Client: 1
+[07:27:20.910] --
+[07:27:38.505] Semi-Supervised Client: 2
+[07:27:38.505] --
+[07:28:13.088] Semi-Supervised Client: 3
+[07:28:13.088] --
+[07:28:47.883] Semi-Supervised Client: 4
+[07:28:47.883] --
+[07:29:21.152] Semi-Supervised Client: 5
+[07:29:21.153] --
+[07:29:56.933] Semi-Supervised Client: 6
+[07:29:56.933] --
+[07:30:30.971] Semi-Supervised Client: 7
+[07:30:30.971] --
+[07:31:04.610] Semi-Supervised Client: 8
+[07:31:04.611] --
+[07:31:37.463] Semi-Supervised Client: 9
+[07:31:37.463] --
+[07:32:11.983] Loss Avg: 0.1673344358018684, Common Round: 12, LR: 0.001 
+[07:32:17.883] TEST AUROC: 0.571383, TEST Accus: 0.600000, F1: 0.613208
+[07:32:17.884] 
+Begin: com_round = 13
+
+[07:32:17.884] Supervised Client: 0
+[07:32:17.884] --
+[07:32:35.958] Supervised Client: 1
+[07:32:35.959] --
+[07:32:54.013] Semi-Supervised Client: 2
+[07:32:54.013] --
+[07:33:28.648] Semi-Supervised Client: 3
+[07:33:28.648] --
+[07:34:02.608] Semi-Supervised Client: 4
+[07:34:02.609] --
+[07:34:38.033] Semi-Supervised Client: 5
+[07:34:38.033] --
+[07:35:10.880] Semi-Supervised Client: 6
+[07:35:10.880] --
+[07:35:45.610] Semi-Supervised Client: 7
+[07:35:45.610] --
+[07:36:19.426] Semi-Supervised Client: 8
+[07:36:19.426] --
+[07:36:54.188] Semi-Supervised Client: 9
+[07:36:54.188] --
+[07:37:28.449] Loss Avg: 0.1699912263800136, Common Round: 13, LR: 0.001 
+[07:37:33.640] TEST AUROC: 0.658024, TEST Accus: 0.720000, F1: 0.634328
+[07:37:33.641] 
+Begin: com_round = 14
+
+[07:37:33.641] Supervised Client: 0
+[07:37:33.641] --
+[07:37:50.372] Supervised Client: 1
+[07:37:50.372] --
+[07:38:07.186] Semi-Supervised Client: 2
+[07:38:07.186] --
+[07:38:42.015] Semi-Supervised Client: 3
+[07:38:42.015] --
+[07:39:15.830] Semi-Supervised Client: 4
+[07:39:15.830] --
+[07:39:47.797] Semi-Supervised Client: 5
+[07:39:47.798] --
+[07:40:19.737] Semi-Supervised Client: 6
+[07:40:19.737] --
+[07:40:51.928] Semi-Supervised Client: 7
+[07:40:51.928] --
+[07:41:22.453] Semi-Supervised Client: 8
+[07:41:22.453] --
+[07:41:52.996] Semi-Supervised Client: 9
+[07:41:52.996] --
+[07:42:25.660] Loss Avg: 0.16509504625785418, Common Round: 14, LR: 0.001 
+[07:42:31.008] TEST AUROC: 0.713717, TEST Accus: 0.490000, F1: 0.593422
+[07:42:31.009] 
+Begin: com_round = 15
+
+[07:42:31.009] Supervised Client: 0
+[07:42:31.009] --
+[07:42:46.780] Supervised Client: 1
+[07:42:46.781] --
+[07:43:03.012] Semi-Supervised Client: 2
+[07:43:03.012] --
+[07:43:36.018] Semi-Supervised Client: 3
+[07:43:36.018] --
+[07:44:08.150] Semi-Supervised Client: 4
+[07:44:08.150] --
+[07:44:39.705] Semi-Supervised Client: 5
+[07:44:39.705] --
+[07:45:11.099] Semi-Supervised Client: 6
+[07:45:11.099] --
+[07:45:42.785] Semi-Supervised Client: 7
+[07:45:42.785] --
+[07:46:15.984] Semi-Supervised Client: 8
+[07:46:15.984] --
+[07:46:49.063] Semi-Supervised Client: 9
+[07:46:49.063] --
+[07:47:21.167] Loss Avg: 0.1653362284689634, Common Round: 15, LR: 0.001 
+[07:47:26.239] TEST AUROC: 0.611336, TEST Accus: 0.700000, F1: 0.630841
+[07:47:26.240] 
+Begin: com_round = 16
+
+[07:47:26.240] Supervised Client: 0
+[07:47:26.240] --
+[07:47:41.916] Supervised Client: 1
+[07:47:41.916] --
+[07:47:56.929] Semi-Supervised Client: 2
+[07:47:56.929] --
+[07:48:27.610] Semi-Supervised Client: 3
+[07:48:27.610] --
+[07:48:59.777] Semi-Supervised Client: 4
+[07:48:59.778] --
+[07:49:31.008] Semi-Supervised Client: 5
+[07:49:31.008] --
+[07:50:02.267] Semi-Supervised Client: 6
+[07:50:02.268] --
+[07:50:32.765] Semi-Supervised Client: 7
+[07:50:32.765] --
+[07:51:05.122] Semi-Supervised Client: 8
+[07:51:05.123] --
+[07:51:37.415] Semi-Supervised Client: 9
+[07:51:37.415] --
+[07:52:08.733] Loss Avg: 0.16467639414424246, Common Round: 16, LR: 0.001 
+[07:52:13.788] TEST AUROC: 0.553978, TEST Accus: 0.550000, F1: 0.604265
+[07:52:13.789] 
+Begin: com_round = 17
+
+[07:52:13.789] Supervised Client: 0
+[07:52:13.789] --
+[07:52:28.691] Supervised Client: 1
+[07:52:28.691] --
+[07:52:43.565] Semi-Supervised Client: 2
+[07:52:43.565] --
+[07:53:14.121] Semi-Supervised Client: 3
+[07:53:14.121] --
+[07:53:46.396] Semi-Supervised Client: 4
+[07:53:46.397] --
+[07:54:18.808] Semi-Supervised Client: 5
+[07:54:18.808] --
+[07:54:51.227] Semi-Supervised Client: 6
+[07:54:51.227] --
+[07:55:23.820] Semi-Supervised Client: 7
+[07:55:23.820] --
+[07:55:56.264] Semi-Supervised Client: 8
+[07:55:56.265] --
+[07:56:27.356] Semi-Supervised Client: 9
+[07:56:27.356] --
+[07:57:00.396] Loss Avg: 0.1657038583123887, Common Round: 17, LR: 0.001 
+[07:57:05.489] TEST AUROC: 0.606386, TEST Accus: 0.440000, F1: 0.584291
+[07:57:05.490] 
+Begin: com_round = 18
+
+[07:57:05.490] Supervised Client: 0
+[07:57:05.490] --
+[07:57:20.923] Supervised Client: 1
+[07:57:20.924] --
+[07:57:36.256] Semi-Supervised Client: 2
+[07:57:36.257] --
+[07:58:08.379] Semi-Supervised Client: 3
+[07:58:08.380] --
+[07:58:41.039] Semi-Supervised Client: 4
+[07:58:41.039] --
+[07:59:13.429] Semi-Supervised Client: 5
+[07:59:13.430] --
+[07:59:46.280] Semi-Supervised Client: 6
+[07:59:46.280] --
+[08:00:18.186] Semi-Supervised Client: 7
+[08:00:18.186] --
+[08:00:49.596] Semi-Supervised Client: 8
+[08:00:49.596] --
+[08:01:20.600] Semi-Supervised Client: 9
+[08:01:20.600] --
+[08:01:52.712] Loss Avg: 0.16445896049051292, Common Round: 18, LR: 0.001 
+[08:01:57.784] TEST AUROC: 0.624733, TEST Accus: 0.570000, F1: 0.607852
+[08:01:57.785] 
+Begin: com_round = 19
+
+[08:01:57.785] Supervised Client: 0
+[08:01:57.785] --
+[08:02:13.689] Supervised Client: 1
+[08:02:13.689] --
+[08:02:28.565] Semi-Supervised Client: 2
+[08:02:28.565] --
+[08:02:59.034] Semi-Supervised Client: 3
+[08:02:59.034] --
+[08:03:29.731] Semi-Supervised Client: 4
+[08:03:29.731] --
+[08:04:01.245] Semi-Supervised Client: 5
+[08:04:01.245] --
+[08:04:33.492] Semi-Supervised Client: 6
+[08:04:33.492] --
+[08:05:04.836] Semi-Supervised Client: 7
+[08:05:04.836] --
+[08:05:36.984] Semi-Supervised Client: 8
+[08:05:36.984] --
+[08:06:10.065] Semi-Supervised Client: 9
+[08:06:10.066] --
+[08:06:42.551] Loss Avg: 0.16612837659195065, Common Round: 19, LR: 0.001 
+[08:06:47.748] TEST AUROC: 0.573020, TEST Accus: 0.580000, F1: 0.609641
+[08:06:47.749] 
+Begin: com_round = 20
+
+[08:06:47.749] Supervised Client: 0
+[08:06:47.749] --
+[08:07:02.954] Supervised Client: 1
+[08:07:02.955] --
+[08:07:18.160] Semi-Supervised Client: 2
+[08:07:18.161] --
+[08:07:48.901] Semi-Supervised Client: 3
+[08:07:48.902] --
+[08:08:20.522] Semi-Supervised Client: 4
+[08:08:20.522] --
+[08:08:51.960] Semi-Supervised Client: 5
+[08:08:51.961] --
+[08:09:22.765] Semi-Supervised Client: 6
+[08:09:22.765] --
+[08:09:53.321] Semi-Supervised Client: 7
+[08:09:53.321] --
+[08:10:24.091] Semi-Supervised Client: 8
+[08:10:24.091] --
+[08:10:56.384] Semi-Supervised Client: 9
+[08:10:56.385] --
+[08:11:29.663] Loss Avg: 0.16406251572347674, Common Round: 20, LR: 0.001 
+[08:11:34.959] TEST AUROC: 0.638723, TEST Accus: 0.600000, F1: 0.613208
+[08:11:34.960] 
+Begin: com_round = 21
+
+[08:11:34.960] Supervised Client: 0
+[08:11:34.960] --
+[08:11:51.124] Supervised Client: 1
+[08:11:51.124] --
+[08:12:06.022] Semi-Supervised Client: 2
+[08:12:06.023] --
+[08:12:38.036] Semi-Supervised Client: 3
+[08:12:38.036] --
+[08:13:08.995] Semi-Supervised Client: 4
+[08:13:08.995] --
+[08:13:39.822] Semi-Supervised Client: 5
+[08:13:39.822] --
+[08:14:10.560] Semi-Supervised Client: 6
+[08:14:10.560] --
+[08:14:42.537] Semi-Supervised Client: 7
+[08:14:42.537] --
+[08:15:15.012] Semi-Supervised Client: 8
+[08:15:15.012] --
+[08:15:46.228] Semi-Supervised Client: 9
+[08:15:46.228] --
+[08:16:19.114] Loss Avg: 0.16593901666770267, Common Round: 21, LR: 0.001 
+[08:16:24.274] TEST AUROC: 0.582100, TEST Accus: 0.540000, F1: 0.602467
+[08:16:24.275] 
+Begin: com_round = 22
+
+[08:16:24.275] Supervised Client: 0
+[08:16:24.275] --
+[08:16:40.995] Supervised Client: 1
+[08:16:40.995] --
+[08:16:56.626] Semi-Supervised Client: 2
+[08:16:56.626] --
+[08:17:27.436] Semi-Supervised Client: 3
+[08:17:27.436] --
+[08:17:59.542] Semi-Supervised Client: 4
+[08:17:59.542] --
+[08:18:31.055] Semi-Supervised Client: 5
+[08:18:31.055] --
+[08:19:03.519] Semi-Supervised Client: 6
+[08:19:03.520] --
+[08:19:34.802] Semi-Supervised Client: 7
+[08:19:34.802] --
+[08:20:06.736] Semi-Supervised Client: 8
+[08:20:06.736] --
+[08:20:38.146] Semi-Supervised Client: 9
+[08:20:38.146] --
+[08:21:10.876] Loss Avg: 0.17345911859407676, Common Round: 22, LR: 0.001 
+[08:21:16.041] TEST AUROC: 0.607047, TEST Accus: 0.730000, F1: 0.636067
+[08:21:16.042] 
+Begin: com_round = 23
+
+[08:21:16.042] Supervised Client: 0
+[08:21:16.042] --
+[08:21:31.613] Supervised Client: 1
+[08:21:31.613] --
+[08:21:47.220] Semi-Supervised Client: 2
+[08:21:47.221] --
+[08:22:19.318] Semi-Supervised Client: 3
+[08:22:19.319] --
+[08:22:50.740] Semi-Supervised Client: 4
+[08:22:50.741] --
+[08:23:23.070] Semi-Supervised Client: 5
+[08:23:23.071] --
+[08:23:53.985] Semi-Supervised Client: 6
+[08:23:53.985] --
+[08:24:26.267] Semi-Supervised Client: 7
+[08:24:26.268] --
+[08:24:58.630] Semi-Supervised Client: 8
+[08:24:58.630] --
+[08:25:31.064] Semi-Supervised Client: 9
+[08:25:31.064] --
+[08:26:03.281] Loss Avg: 0.17540785936977374, Common Round: 23, LR: 0.001 
+[08:26:08.377] TEST AUROC: 0.728647, TEST Accus: 0.570000, F1: 0.607852
+[08:26:08.378] 
+Begin: com_round = 24
+
+[08:26:08.378] Supervised Client: 0
+[08:26:08.378] --
+[08:26:24.740] Supervised Client: 1
+[08:26:24.740] --
+[08:26:39.950] Semi-Supervised Client: 2
+[08:26:39.950] --
+[08:27:10.600] Semi-Supervised Client: 3
+[08:27:10.600] --
+[08:27:41.099] Semi-Supervised Client: 4
+[08:27:41.099] --
+[08:28:13.002] Semi-Supervised Client: 5
+[08:28:13.002] --
+[08:28:45.320] Semi-Supervised Client: 6
+[08:28:45.320] --
+[08:29:16.315] Semi-Supervised Client: 7
+[08:29:16.316] --
+[08:29:48.501] Semi-Supervised Client: 8
+[08:29:48.502] --
+[08:30:20.768] Semi-Supervised Client: 9
+[08:30:20.769] --
+[08:30:52.634] Loss Avg: 0.16456199304983865, Common Round: 24, LR: 0.001 
+[08:30:57.617] TEST AUROC: 0.691996, TEST Accus: 0.570000, F1: 0.607852
+[08:30:57.618] 
+Begin: com_round = 25
+
+[08:30:57.618] Supervised Client: 0
+[08:30:57.618] --
+[08:31:13.054] Supervised Client: 1
+[08:31:13.054] --
+[08:31:28.778] Semi-Supervised Client: 2
+[08:31:28.778] --
+[08:32:00.301] Semi-Supervised Client: 3
+[08:32:00.302] --
+[08:32:32.640] Semi-Supervised Client: 4
+[08:32:32.640] --
+[08:33:04.208] Semi-Supervised Client: 5
+[08:33:04.208] --
+[08:33:35.771] Semi-Supervised Client: 6
+[08:33:35.772] --
+[08:34:08.175] Semi-Supervised Client: 7
+[08:34:08.176] --
+[08:34:39.552] Semi-Supervised Client: 8
+[08:34:39.552] --
+[08:35:11.700] Semi-Supervised Client: 9
+[08:35:11.701] --
+[08:35:45.235] Loss Avg: 0.16269447766297324, Common Round: 25, LR: 0.001 
+[08:35:50.431] TEST AUROC: 0.635104, TEST Accus: 0.530000, F1: 0.600665
+[08:35:50.431] 
+Begin: com_round = 26
+
+[08:35:50.431] Supervised Client: 0
+[08:35:50.432] --
+[08:36:06.247] Supervised Client: 1
+[08:36:06.247] --
+[08:36:22.823] Semi-Supervised Client: 2
+[08:36:22.824] --
+[08:36:54.036] Semi-Supervised Client: 3
+[08:36:54.036] --
+[08:37:25.210] Semi-Supervised Client: 4
+[08:37:25.210] --
+[08:37:56.570] Semi-Supervised Client: 5
+[08:37:56.570] --
+[08:38:27.132] Semi-Supervised Client: 6
+[08:38:27.132] --
+[08:38:59.059] Semi-Supervised Client: 7
+[08:38:59.060] --
+[08:39:30.856] Semi-Supervised Client: 8
+[08:39:30.856] --
+[08:40:01.819] Semi-Supervised Client: 9
+[08:40:01.820] --
+[08:40:35.197] Loss Avg: 0.16524189937521114, Common Round: 26, LR: 0.001 
+[08:40:40.350] TEST AUROC: 0.693492, TEST Accus: 0.590000, F1: 0.611426
+[08:40:40.350] 
+Begin: com_round = 27
+
+[08:40:40.351] Supervised Client: 0
+[08:40:40.351] --
+[08:40:55.296] Supervised Client: 1
+[08:40:55.296] --
+[08:41:10.142] Semi-Supervised Client: 2
+[08:41:10.142] --
+[08:41:40.615] Semi-Supervised Client: 3
+[08:41:40.616] --
+[08:42:11.067] Semi-Supervised Client: 4
+[08:42:11.068] --
+[08:42:41.517] Semi-Supervised Client: 5
+[08:42:41.517] --
+[08:43:12.001] Semi-Supervised Client: 6
+[08:43:12.001] --
+[08:43:43.130] Semi-Supervised Client: 7
+[08:43:43.130] --
+[08:44:15.415] Semi-Supervised Client: 8
+[08:44:15.415] --
+[08:44:47.445] Semi-Supervised Client: 9
+[08:44:47.445] --
+[08:45:20.490] Loss Avg: 0.16938664763107558, Common Round: 27, LR: 0.001 
+[08:45:25.488] TEST AUROC: 0.580083, TEST Accus: 0.470000, F1: 0.589780
+[08:45:25.488] 
+Begin: com_round = 28
+
+[08:45:25.488] Supervised Client: 0
+[08:45:25.489] --
+[08:45:42.797] Supervised Client: 1
+[08:45:42.797] --
+[08:45:58.534] Semi-Supervised Client: 2
+[08:45:58.534] --
+[08:46:29.112] Semi-Supervised Client: 3
+[08:46:29.112] --
+[08:47:01.337] Semi-Supervised Client: 4
+[08:47:01.338] --
+[08:47:32.718] Semi-Supervised Client: 5
+[08:47:32.718] --
+[08:48:03.310] Semi-Supervised Client: 6
+[08:48:03.310] --
+[08:48:33.898] Semi-Supervised Client: 7
+[08:48:33.898] --
+[08:49:04.465] Semi-Supervised Client: 8
+[08:49:04.465] --
+[08:49:35.029] Semi-Supervised Client: 9
+[08:49:35.029] --
+[08:50:06.720] Loss Avg: 0.1677157937019894, Common Round: 28, LR: 0.001 
+[08:50:11.940] TEST AUROC: 0.652686, TEST Accus: 0.570000, F1: 0.607852
+[08:50:11.941] 
+Begin: com_round = 29
+
+[08:50:11.941] Supervised Client: 0
+[08:50:11.941] --
+[08:50:26.919] Supervised Client: 1
+[08:50:26.920] --
+[08:50:41.891] Semi-Supervised Client: 2
+[08:50:41.892] --
+[08:51:13.671] Semi-Supervised Client: 3
+[08:51:13.672] --
+[08:51:45.116] Semi-Supervised Client: 4
+[08:51:45.117] --
+[08:52:15.665] Semi-Supervised Client: 5
+[08:52:15.665] --
+[08:52:46.211] Semi-Supervised Client: 6
+[08:52:46.211] --
+[08:53:16.733] Semi-Supervised Client: 7
+[08:53:16.733] --
+[08:53:47.377] Semi-Supervised Client: 8
+[08:53:47.377] --
+[08:54:17.989] Semi-Supervised Client: 9
+[08:54:17.990] --
+[08:54:50.811] Loss Avg: 0.16259500945770095, Common Round: 29, LR: 0.001 
+[08:54:55.896] TEST AUROC: 0.656282, TEST Accus: 0.680000, F1: 0.627341
+[08:54:55.896] 
+Begin: com_round = 30
+
+[08:54:55.897] Supervised Client: 0
+[08:54:55.897] --
+[08:55:12.055] Supervised Client: 1
+[08:55:12.055] --
+[08:55:27.476] Semi-Supervised Client: 2
+[08:55:27.476] --
+[08:55:58.325] Semi-Supervised Client: 3
+[08:55:58.325] --
+[08:56:30.426] Semi-Supervised Client: 4
+[08:56:30.426] --
+[08:57:02.812] Semi-Supervised Client: 5
+[08:57:02.812] --
+[08:57:35.056] Semi-Supervised Client: 6
+[08:57:35.056] --
+[08:58:06.288] Semi-Supervised Client: 7
+[08:58:06.289] --
+[08:58:37.962] Semi-Supervised Client: 8
+[08:58:37.962] --
+[08:59:08.708] Semi-Supervised Client: 9
+[08:59:08.708] --
+[08:59:40.301] Loss Avg: 0.16231193505227567, Common Round: 30, LR: 0.001 
+[08:59:45.343] TEST AUROC: 0.606221, TEST Accus: 0.500000, F1: 0.595238
+[08:59:45.344] 
+Begin: com_round = 31
+
+[08:59:45.344] Supervised Client: 0
+[08:59:45.344] --
+[09:00:00.913] Supervised Client: 1
+[09:00:00.913] --
+[09:00:16.018] Semi-Supervised Client: 2
+[09:00:16.018] --
+[09:00:46.876] Semi-Supervised Client: 3
+[09:00:46.876] --
+[09:01:18.322] Semi-Supervised Client: 4
+[09:01:18.322] --
+[09:01:49.491] Semi-Supervised Client: 5
+[09:01:49.491] --
+[09:02:21.897] Semi-Supervised Client: 6
+[09:02:21.897] --
+[09:02:54.290] Semi-Supervised Client: 7
+[09:02:54.290] --
+[09:03:26.695] Semi-Supervised Client: 8
+[09:03:26.695] --
+[09:03:57.565] Semi-Supervised Client: 9
+[09:03:57.565] --
+[09:04:28.884] Loss Avg: 0.16756146811795505, Common Round: 31, LR: 0.001 
+[09:04:33.931] TEST AUROC: 0.611476, TEST Accus: 0.480000, F1: 0.591603
+[09:04:33.931] 
+Begin: com_round = 32
+
+[09:04:33.932] Supervised Client: 0
+[09:04:33.932] --
+[09:04:49.718] Supervised Client: 1
+[09:04:49.719] --
+[09:05:04.820] Semi-Supervised Client: 2
+[09:05:04.820] --
+[09:05:36.451] Semi-Supervised Client: 3
+[09:05:36.452] --
+[09:06:08.081] Semi-Supervised Client: 4
+[09:06:08.081] --
+[09:06:39.343] Semi-Supervised Client: 5
+[09:06:39.344] --
+[09:07:10.562] Semi-Supervised Client: 6
+[09:07:10.563] --
+[09:07:42.494] Semi-Supervised Client: 7
+[09:07:42.495] --
+[09:08:14.165] Semi-Supervised Client: 8
+[09:08:14.165] --
+[09:08:46.298] Semi-Supervised Client: 9
+[09:08:46.299] --
+[09:09:20.361] Loss Avg: 0.1653805637774481, Common Round: 32, LR: 0.001 
+[09:09:25.511] TEST AUROC: 0.572926, TEST Accus: 0.600000, F1: 0.613208
+[09:09:25.512] 
+Begin: com_round = 33
+
+[09:09:25.512] Supervised Client: 0
+[09:09:25.512] --
+[09:09:40.560] Supervised Client: 1
+[09:09:40.560] --
+[09:09:55.396] Semi-Supervised Client: 2
+[09:09:55.396] --
+[09:10:25.837] Semi-Supervised Client: 3
+[09:10:25.837] --
+[09:10:56.388] Semi-Supervised Client: 4
+[09:10:56.389] --
+[09:11:28.732] Semi-Supervised Client: 5
+[09:11:28.733] --
+[09:12:00.122] Semi-Supervised Client: 6
+[09:12:00.122] --
+[09:12:30.743] Semi-Supervised Client: 7
+[09:12:30.743] --
+[09:13:02.874] Semi-Supervised Client: 8
+[09:13:02.875] --
+[09:13:35.247] Semi-Supervised Client: 9
+[09:13:35.247] --
+[09:14:08.420] Loss Avg: 0.16198059414799157, Common Round: 33, LR: 0.001 
+[09:14:13.420] TEST AUROC: 0.582185, TEST Accus: 0.570000, F1: 0.607852
+[09:14:13.421] 
+Begin: com_round = 34
+
+[09:14:13.421] Supervised Client: 0
+[09:14:13.421] --
+[09:14:29.047] Supervised Client: 1
+[09:14:29.047] --
+[09:14:43.903] Semi-Supervised Client: 2
+[09:14:43.903] --
+[09:15:14.350] Semi-Supervised Client: 3
+[09:15:14.350] --
+[09:15:44.793] Semi-Supervised Client: 4
+[09:15:44.793] --
+[09:16:16.642] Semi-Supervised Client: 5
+[09:16:16.642] --
+[09:16:49.013] Semi-Supervised Client: 6
+[09:16:49.013] --
+[09:17:21.395] Semi-Supervised Client: 7
+[09:17:21.395] --
+[09:17:53.615] Semi-Supervised Client: 8
+[09:17:53.615] --
+[09:18:24.282] Semi-Supervised Client: 9
+[09:18:24.282] --
+[09:18:56.943] Loss Avg: 0.17136988256719302, Common Round: 34, LR: 0.001 
+[09:19:02.151] TEST AUROC: 0.616720, TEST Accus: 0.640000, F1: 0.620301
+[09:19:02.152] 
+Begin: com_round = 35
+
+[09:19:02.152] Supervised Client: 0
+[09:19:02.152] --
+[09:19:18.196] Supervised Client: 1
+[09:19:18.196] --
+[09:19:34.369] Semi-Supervised Client: 2
+[09:19:34.369] --
+[09:20:06.303] Semi-Supervised Client: 3
+[09:20:06.303] --
+[09:20:37.465] Semi-Supervised Client: 4
+[09:20:37.466] --
+[09:21:09.373] Semi-Supervised Client: 5
+[09:21:09.373] --
+[09:21:39.954] Semi-Supervised Client: 6
+[09:21:39.954] --
+[09:22:10.540] Semi-Supervised Client: 7
+[09:22:10.540] --
+[09:22:41.109] Semi-Supervised Client: 8
+[09:22:41.109] --
+[09:23:11.753] Semi-Supervised Client: 9
+[09:23:11.753] --
+[09:23:43.537] Loss Avg: 0.16131524106656964, Common Round: 35, LR: 0.001 
+[09:23:48.605] TEST AUROC: 0.671629, TEST Accus: 0.560000, F1: 0.606061
+[09:23:48.606] 
+Begin: com_round = 36
+
+[09:23:48.606] Supervised Client: 0
+[09:23:48.606] --
+[09:24:05.475] Supervised Client: 1
+[09:24:05.475] --
+[09:24:22.440] Semi-Supervised Client: 2
+[09:24:22.440] --
+[09:24:54.961] Semi-Supervised Client: 3
+[09:24:54.962] --
+[09:25:26.247] Semi-Supervised Client: 4
+[09:25:26.248] --
+[09:25:57.780] Semi-Supervised Client: 5
+[09:25:57.780] --
+[09:26:29.754] Semi-Supervised Client: 6
+[09:26:29.754] --
+[09:27:02.149] Semi-Supervised Client: 7
+[09:27:02.149] --
+[09:27:34.534] Semi-Supervised Client: 8
+[09:27:34.534] --
+[09:28:06.980] Semi-Supervised Client: 9
+[09:28:06.980] --
+[09:28:40.131] Loss Avg: 0.16144616634648465, Common Round: 36, LR: 0.001 
+[09:28:45.421] TEST AUROC: 0.714710, TEST Accus: 0.590000, F1: 0.611426
+[09:28:45.422] 
+Begin: com_round = 37
+
+[09:28:45.422] Supervised Client: 0
+[09:28:45.422] --
+[09:29:01.151] Supervised Client: 1
+[09:29:01.151] --
+[09:29:16.294] Semi-Supervised Client: 2
+[09:29:16.294] --
+[09:29:48.202] Semi-Supervised Client: 3
+[09:29:48.203] --
+[09:30:21.397] Semi-Supervised Client: 4
+[09:30:21.398] --
+[09:30:54.617] Semi-Supervised Client: 5
+[09:30:54.617] --
+[09:31:27.500] Semi-Supervised Client: 6
+[09:31:27.500] --
+[09:31:59.756] Semi-Supervised Client: 7
+[09:31:59.757] --
+[09:32:30.948] Semi-Supervised Client: 8
+[09:32:30.948] --
+[09:33:02.229] Semi-Supervised Client: 9
+[09:33:02.229] --
+[09:33:34.508] Loss Avg: 0.16111939601515507, Common Round: 37, LR: 0.001 
+[09:33:39.643] TEST AUROC: 0.590585, TEST Accus: 0.520000, F1: 0.598859
+[09:33:39.643] 
+Begin: com_round = 38
+
+[09:33:39.643] Supervised Client: 0
+[09:33:39.644] --
+[09:33:56.519] Supervised Client: 1
+[09:33:56.519] --
+[09:34:11.872] Semi-Supervised Client: 2
+[09:34:11.872] --
+[09:34:44.786] Semi-Supervised Client: 3
+[09:34:44.786] --
+[09:35:16.305] Semi-Supervised Client: 4
+[09:35:16.305] --
+[09:35:47.488] Semi-Supervised Client: 5
+[09:35:47.489] --
+[09:36:18.986] Semi-Supervised Client: 6
+[09:36:18.987] --
+[09:36:51.570] Semi-Supervised Client: 7
+[09:36:51.571] --
+[09:37:23.330] Semi-Supervised Client: 8
+[09:37:23.331] --
+[09:37:56.077] Semi-Supervised Client: 9
+[09:37:56.077] --
+[09:38:28.274] Loss Avg: 0.1621280819362834, Common Round: 38, LR: 0.001 
+[09:38:33.391] TEST AUROC: 0.630726, TEST Accus: 0.510000, F1: 0.597050
+[09:38:33.392] 
+Begin: com_round = 39
+
+[09:38:33.392] Supervised Client: 0
+[09:38:33.392] --
+[09:38:49.099] Supervised Client: 1
+[09:38:49.099] --
+[09:39:04.935] Semi-Supervised Client: 2
+[09:39:04.935] --
+[09:39:36.121] Semi-Supervised Client: 3
+[09:39:36.121] --
+[09:40:07.291] Semi-Supervised Client: 4
+[09:40:07.291] --
+[09:40:38.499] Semi-Supervised Client: 5
+[09:40:38.499] --
+[09:41:09.683] Semi-Supervised Client: 6
+[09:41:09.683] --
+[09:41:40.875] Semi-Supervised Client: 7
+[09:41:40.875] --
+[09:42:12.074] Semi-Supervised Client: 8
+[09:42:12.074] --
+[09:42:43.257] Semi-Supervised Client: 9
+[09:42:43.257] --
+[09:43:15.650] Loss Avg: 0.16153928807470946, Common Round: 39, LR: 0.001 
+[09:43:20.753] TEST AUROC: 0.645609, TEST Accus: 0.580000, F1: 0.609641
+[09:43:20.754] 
+Begin: com_round = 40
+
+[09:43:20.754] Supervised Client: 0
+[09:43:20.754] --
+[09:43:36.237] Supervised Client: 1
+[09:43:36.237] --
+[09:43:51.688] Semi-Supervised Client: 2
+[09:43:51.688] --
+[09:44:23.665] Semi-Supervised Client: 3
+[09:44:23.665] --
+[09:44:54.894] Semi-Supervised Client: 4
+[09:44:54.894] --
+[09:45:26.058] Semi-Supervised Client: 5
+[09:45:26.058] --
+[09:45:57.615] Semi-Supervised Client: 6
+[09:45:57.615] --
+[09:46:29.862] Semi-Supervised Client: 7
+[09:46:29.863] --
+[09:47:02.157] Semi-Supervised Client: 8
+[09:47:02.157] --
+[09:47:34.201] Semi-Supervised Client: 9
+[09:47:34.201] --
+[09:48:05.549] Loss Avg: 0.16090985254479828, Common Round: 40, LR: 0.001 
+[09:48:10.553] TEST AUROC: 0.569004, TEST Accus: 0.670000, F1: 0.625586
+[09:48:10.554] 
+Begin: com_round = 41
+
+[09:48:10.554] Supervised Client: 0
+[09:48:10.554] --
+[09:48:27.258] Supervised Client: 1
+[09:48:27.258] --
+[09:48:42.469] Semi-Supervised Client: 2
+[09:48:42.469] --
+[09:49:12.942] Semi-Supervised Client: 3
+[09:49:12.942] --
+[09:49:43.409] Semi-Supervised Client: 4
+[09:49:43.409] --
+[09:50:14.084] Semi-Supervised Client: 5
+[09:50:14.084] --
+[09:50:46.228] Semi-Supervised Client: 6
+[09:50:46.228] --
+[09:51:18.642] Semi-Supervised Client: 7
+[09:51:18.642] --
+[09:51:49.484] Semi-Supervised Client: 8
+[09:51:49.484] --
+[09:52:20.385] Semi-Supervised Client: 9
+[09:52:20.385] --
+[09:52:51.861] Loss Avg: 0.16196895079814239, Common Round: 41, LR: 0.001 
+[09:52:56.867] TEST AUROC: 0.535473, TEST Accus: 0.640000, F1: 0.620301
+[09:52:56.867] 
+Begin: com_round = 42
+
+[09:52:56.868] Supervised Client: 0
+[09:52:56.868] --
+[09:53:13.055] Supervised Client: 1
+[09:53:13.055] --
+[09:53:28.489] Semi-Supervised Client: 2
+[09:53:28.490] --
+[09:53:59.078] Semi-Supervised Client: 3
+[09:53:59.078] --
+[09:54:30.885] Semi-Supervised Client: 4
+[09:54:30.885] --
+[09:55:02.838] Semi-Supervised Client: 5
+[09:55:02.839] --
+[09:55:35.403] Semi-Supervised Client: 6
+[09:55:35.403] --
+[09:56:06.428] Semi-Supervised Client: 7
+[09:56:06.428] --
+[09:56:37.162] Semi-Supervised Client: 8
+[09:56:37.163] --
+[09:57:08.087] Semi-Supervised Client: 9
+[09:57:08.087] --
+[09:57:40.350] Loss Avg: 0.1640362356344915, Common Round: 42, LR: 0.001 
+[09:57:45.373] TEST AUROC: 0.551037, TEST Accus: 0.560000, F1: 0.606061
+[09:57:45.374] 
+Begin: com_round = 43
+
+[09:57:45.374] Supervised Client: 0
+[09:57:45.374] --
+[09:58:00.481] Supervised Client: 1
+[09:58:00.482] --
+[09:58:15.474] Semi-Supervised Client: 2
+[09:58:15.474] --
+[09:58:45.971] Semi-Supervised Client: 3
+[09:58:45.971] --
+[09:59:16.467] Semi-Supervised Client: 4
+[09:59:16.467] --
+[09:59:46.964] Semi-Supervised Client: 5
+[09:59:46.964] --
+[10:00:17.494] Semi-Supervised Client: 6
+[10:00:17.494] --
+[10:00:48.155] Semi-Supervised Client: 7
+[10:00:48.155] --
+[10:01:18.817] Semi-Supervised Client: 8
+[10:01:18.817] --
+[10:01:49.617] Semi-Supervised Client: 9
+[10:01:49.617] --
+[10:02:22.330] Loss Avg: 0.1605988451803569, Common Round: 43, LR: 0.001 
+[10:02:27.277] TEST AUROC: 0.568129, TEST Accus: 0.600000, F1: 0.613208
+[10:02:27.278] 
+Begin: com_round = 44
+
+[10:02:27.278] Supervised Client: 0
+[10:02:27.278] --
+[10:02:42.594] Supervised Client: 1
+[10:02:42.595] --
+[10:02:57.907] Semi-Supervised Client: 2
+[10:02:57.907] --
+[10:03:28.639] Semi-Supervised Client: 3
+[10:03:28.639] --
+[10:04:00.130] Semi-Supervised Client: 4
+[10:04:00.130] --
+[10:04:32.561] Semi-Supervised Client: 5
+[10:04:32.561] --
+[10:05:05.082] Semi-Supervised Client: 6
+[10:05:05.082] --
+[10:05:37.538] Semi-Supervised Client: 7
+[10:05:37.539] --
+[10:06:09.682] Semi-Supervised Client: 8
+[10:06:09.683] --
+[10:06:41.650] Semi-Supervised Client: 9
+[10:06:41.650] --
+[10:07:13.965] Loss Avg: 0.16048780309396202, Common Round: 44, LR: 0.001 
+[10:07:19.119] TEST AUROC: 0.654317, TEST Accus: 0.590000, F1: 0.611426
+[10:07:19.120] 
+Begin: com_round = 45
+
+[10:07:19.120] Supervised Client: 0
+[10:07:19.120] --
+[10:07:34.962] Supervised Client: 1
+[10:07:34.962] --
+[10:07:50.476] Semi-Supervised Client: 2
+[10:07:50.477] --
+[10:08:21.240] Semi-Supervised Client: 3
+[10:08:21.240] --
+[10:08:53.389] Semi-Supervised Client: 4
+[10:08:53.389] --
+[10:09:25.859] Semi-Supervised Client: 5
+[10:09:25.859] --
+[10:09:58.266] Semi-Supervised Client: 6
+[10:09:58.266] --
+[10:10:30.628] Semi-Supervised Client: 7
+[10:10:30.628] --
+[10:11:01.453] Semi-Supervised Client: 8
+[10:11:01.453] --
+[10:11:32.967] Semi-Supervised Client: 9
+[10:11:32.968] --
+[10:12:04.593] Loss Avg: 0.18636809359516276, Common Round: 45, LR: 0.001 
+[10:12:09.589] TEST AUROC: 0.405439, TEST Accus: 0.690000, F1: 0.629093
+[10:12:09.589] 
+Begin: com_round = 46
+
+[10:12:09.590] Supervised Client: 0
+[10:12:09.590] --
+[10:12:26.367] Supervised Client: 1
+[10:12:26.367] --
+[10:12:43.050] Semi-Supervised Client: 2
+[10:12:43.050] --
+[10:13:14.236] Semi-Supervised Client: 3
+[10:13:14.236] --
+[10:13:45.410] Semi-Supervised Client: 4
+[10:13:45.411] --
+[10:14:16.594] Semi-Supervised Client: 5
+[10:14:16.594] --
+[10:14:48.080] Semi-Supervised Client: 6
+[10:14:48.081] --
+[10:15:19.254] Semi-Supervised Client: 7
+[10:15:19.254] --
+[10:15:52.024] Semi-Supervised Client: 8
+[10:15:52.024] --
+[10:16:25.178] Semi-Supervised Client: 9
+[10:16:25.178] --
+[10:16:58.246] Loss Avg: 0.16518680442611436, Common Round: 46, LR: 0.001 
+[10:17:03.533] TEST AUROC: 0.468611, TEST Accus: 0.500000, F1: 0.595238
+[10:17:03.534] 
+Begin: com_round = 47
+
+[10:17:03.534] Supervised Client: 0
+[10:17:03.534] --
+[10:17:19.075] Supervised Client: 1
+[10:17:19.075] --
+[10:17:34.276] Semi-Supervised Client: 2
+[10:17:34.276] --
+[10:18:04.951] Semi-Supervised Client: 3
+[10:18:04.951] --
+[10:18:37.366] Semi-Supervised Client: 4
+[10:18:37.367] --
+[10:19:08.402] Semi-Supervised Client: 5
+[10:19:08.402] --
+[10:19:39.043] Semi-Supervised Client: 6
+[10:19:39.043] --
+[10:20:09.668] Semi-Supervised Client: 7
+[10:20:09.669] --
+[10:20:41.439] Semi-Supervised Client: 8
+[10:20:41.439] --
+[10:21:13.874] Semi-Supervised Client: 9
+[10:21:13.874] --
+[10:21:47.177] Loss Avg: 0.1618782459842888, Common Round: 47, LR: 0.001 
+[10:21:52.249] TEST AUROC: 0.621019, TEST Accus: 0.640000, F1: 0.620301
+[10:21:52.250] 
+Begin: com_round = 48
+
+[10:21:52.250] Supervised Client: 0
+[10:21:52.250] --
+[10:22:08.157] Supervised Client: 1
+[10:22:08.158] --
+[10:22:23.448] Semi-Supervised Client: 2
+[10:22:23.448] --
+[10:22:54.457] Semi-Supervised Client: 3
+[10:22:54.457] --
+[10:23:25.026] Semi-Supervised Client: 4
+[10:23:25.027] --
+[10:23:55.609] Semi-Supervised Client: 5
+[10:23:55.610] --
+[10:24:26.189] Semi-Supervised Client: 6
+[10:24:26.189] --
+[10:24:56.787] Semi-Supervised Client: 7
+[10:24:56.787] --
+[10:25:27.457] Semi-Supervised Client: 8
+[10:25:27.457] --
+[10:25:58.085] Semi-Supervised Client: 9
+[10:25:58.085] --
+[10:26:29.543] Loss Avg: 0.16234797241420232, Common Round: 48, LR: 0.001 
+[10:26:34.547] TEST AUROC: 0.584221, TEST Accus: 0.580000, F1: 0.609641
+[10:26:34.548] 
+Begin: com_round = 49
+
+[10:26:34.548] Supervised Client: 0
+[10:26:34.548] --
+[10:26:51.326] Supervised Client: 1
+[10:26:51.326] --
+[10:27:06.371] Semi-Supervised Client: 2
+[10:27:06.371] --
+[10:27:37.233] Semi-Supervised Client: 3
+[10:27:37.234] --
+[10:28:07.895] Semi-Supervised Client: 4
+[10:28:07.895] --
+[10:28:38.528] Semi-Supervised Client: 5
+[10:28:38.529] --
+[10:29:09.054] Semi-Supervised Client: 6
+[10:29:09.054] --
+[10:29:40.216] Semi-Supervised Client: 7
+[10:29:40.216] --
+[10:30:10.864] Semi-Supervised Client: 8
+[10:30:10.865] --
+[10:30:41.528] Semi-Supervised Client: 9
+[10:30:41.528] --
+[10:31:13.112] Loss Avg: 0.16251749400663273, Common Round: 49, LR: 0.001 
+[10:31:18.096] TEST AUROC: 0.579465, TEST Accus: 0.450000, F1: 0.586124
+[10:31:18.096] 
+Begin: com_round = 50
+
+[10:31:18.097] Supervised Client: 0
+[10:31:18.097] --
+[10:31:33.209] Supervised Client: 1
+[10:31:33.209] --
+[10:31:48.433] Semi-Supervised Client: 2
+[10:31:48.433] --
+[10:32:19.717] Semi-Supervised Client: 3
+[10:32:19.717] --
+[10:32:50.471] Semi-Supervised Client: 4
+[10:32:50.471] --
+[10:33:21.310] Semi-Supervised Client: 5
+[10:33:21.310] --
+[10:33:52.497] Semi-Supervised Client: 6
+[10:33:52.497] --
+[10:34:23.022] Semi-Supervised Client: 7
+[10:34:23.022] --
+[10:34:53.547] Semi-Supervised Client: 8
+[10:34:53.547] --
+[10:35:24.091] Semi-Supervised Client: 9
+[10:35:24.091] --
+[10:35:55.507] Loss Avg: 0.16139610860846004, Common Round: 50, LR: 0.001 
+[10:36:00.541] TEST AUROC: 0.523211, TEST Accus: 0.450000, F1: 0.586124
+[10:36:00.542] 
+Begin: com_round = 51
+
+[10:36:00.542] Supervised Client: 0
+[10:36:00.543] --
+[10:36:16.199] Supervised Client: 1
+[10:36:16.199] --
+[10:36:31.681] Semi-Supervised Client: 2
+[10:36:31.681] --
+[10:37:02.803] Semi-Supervised Client: 3
+[10:37:02.803] --
+[10:37:33.903] Semi-Supervised Client: 4
+[10:37:33.903] --
+[10:38:05.526] Semi-Supervised Client: 5
+[10:38:05.526] --
+[10:38:36.673] Semi-Supervised Client: 6
+[10:38:36.673] --
+[10:39:07.407] Semi-Supervised Client: 7
+[10:39:07.407] --
+[10:39:38.073] Semi-Supervised Client: 8
+[10:39:38.073] --
+[10:40:08.971] Semi-Supervised Client: 9
+[10:40:08.971] --
+[10:40:42.127] Loss Avg: 0.1617826396520038, Common Round: 51, LR: 0.001 
+[10:40:47.183] TEST AUROC: 0.561386, TEST Accus: 0.810000, F1: 0.649861
+[10:40:47.184] 
+Begin: com_round = 52
+
+[10:40:47.184] Supervised Client: 0
+[10:40:47.184] --
+[10:41:03.718] Supervised Client: 1
+[10:41:03.718] --
+[10:41:18.784] Semi-Supervised Client: 2
+[10:41:18.784] --
+[10:41:49.468] Semi-Supervised Client: 3
+[10:41:49.468] --
+[10:42:21.454] Semi-Supervised Client: 4
+[10:42:21.455] --
+[10:42:53.421] Semi-Supervised Client: 5
+[10:42:53.421] --
+[10:43:24.522] Semi-Supervised Client: 6
+[10:43:24.523] --
+[10:43:55.196] Semi-Supervised Client: 7
+[10:43:55.196] --
+[10:44:25.838] Semi-Supervised Client: 8
+[10:44:25.838] --
+[10:44:56.838] Semi-Supervised Client: 9
+[10:44:56.838] --
+[10:45:29.656] Loss Avg: 0.16132519616830077, Common Round: 52, LR: 0.001 
+[10:45:34.750] TEST AUROC: 0.448904, TEST Accus: 0.490000, F1: 0.593422
+[10:45:34.751] 
+Begin: com_round = 53
+
+[10:45:34.751] Supervised Client: 0
+[10:45:34.751] --
+[10:45:50.864] Supervised Client: 1
+[10:45:50.864] --
+[10:46:06.000] Semi-Supervised Client: 2
+[10:46:06.000] --
+[10:46:36.539] Semi-Supervised Client: 3
+[10:46:36.539] --
+[10:47:07.348] Semi-Supervised Client: 4
+[10:47:07.349] --
+[10:47:38.741] Semi-Supervised Client: 5
+[10:47:38.741] --
+[10:48:09.761] Semi-Supervised Client: 6
+[10:48:09.762] --
+[10:48:42.314] Semi-Supervised Client: 7
+[10:48:42.314] --
+[10:49:14.785] Semi-Supervised Client: 8
+[10:49:14.785] --
+[10:49:45.555] Semi-Supervised Client: 9
+[10:49:45.555] --
+[10:50:17.720] Loss Avg: 0.1600958905875979, Common Round: 53, LR: 0.001 
+[10:50:22.951] TEST AUROC: 0.546470, TEST Accus: 0.480000, F1: 0.591603
+[10:50:22.952] 
+Begin: com_round = 54
+
+[10:50:22.952] Supervised Client: 0
+[10:50:22.952] --
+[10:50:39.576] Supervised Client: 1
+[10:50:39.576] --
+[10:50:54.735] Semi-Supervised Client: 2
+[10:50:54.736] --
+[10:51:25.876] Semi-Supervised Client: 3
+[10:51:25.876] --
+[10:51:58.251] Semi-Supervised Client: 4
+[10:51:58.251] --
+[10:52:29.221] Semi-Supervised Client: 5
+[10:52:29.221] --
+[10:53:00.109] Semi-Supervised Client: 6
+[10:53:00.109] --
+[10:53:31.819] Semi-Supervised Client: 7
+[10:53:31.820] --
+[10:54:04.253] Semi-Supervised Client: 8
+[10:54:04.253] --
+[10:54:36.549] Semi-Supervised Client: 9
+[10:54:36.550] --
+[10:55:08.753] Loss Avg: 0.1597314107125964, Common Round: 54, LR: 0.001 
+[10:55:13.821] TEST AUROC: 0.541876, TEST Accus: 0.550000, F1: 0.604265
+[10:55:13.821] 
+Begin: com_round = 55
+
+[10:55:13.822] Supervised Client: 0
+[10:55:13.822] --
+[10:55:29.587] Supervised Client: 1
+[10:55:29.587] --
+[10:55:45.667] Semi-Supervised Client: 2
+[10:55:45.667] --
+[10:56:18.005] Semi-Supervised Client: 3
+[10:56:18.005] --
+[10:56:50.312] Semi-Supervised Client: 4
+[10:56:50.312] --
+[10:57:21.893] Semi-Supervised Client: 5
+[10:57:21.893] --
+[10:57:52.414] Semi-Supervised Client: 6
+[10:57:52.414] --
+[10:58:24.658] Semi-Supervised Client: 7
+[10:58:24.658] --
+[10:58:56.140] Semi-Supervised Client: 8
+[10:58:56.141] --
+[10:59:26.770] Semi-Supervised Client: 9
+[10:59:26.770] --
+[10:59:58.346] Loss Avg: 0.1670432788192887, Common Round: 55, LR: 0.001 
+[11:00:03.370] TEST AUROC: 0.482009, TEST Accus: 0.630000, F1: 0.618532
+[11:00:03.371] 
+Begin: com_round = 56
+
+[11:00:03.371] Supervised Client: 0
+[11:00:03.371] --
+[11:00:19.414] Supervised Client: 1
+[11:00:19.414] --
+[11:00:35.337] Semi-Supervised Client: 2
+[11:00:35.337] --
+[11:01:07.368] Semi-Supervised Client: 3
+[11:01:07.368] --
+[11:01:39.798] Semi-Supervised Client: 4
+[11:01:39.799] --
+[11:02:12.174] Semi-Supervised Client: 5
+[11:02:12.175] --
+[11:02:44.565] Semi-Supervised Client: 6
+[11:02:44.565] --
+[11:03:17.081] Semi-Supervised Client: 7
+[11:03:17.081] --
+[11:03:48.654] Semi-Supervised Client: 8
+[11:03:48.654] --
+[11:04:20.701] Semi-Supervised Client: 9
+[11:04:20.701] --
+[11:04:52.240] Loss Avg: 0.16015083633987656, Common Round: 56, LR: 0.001 
+[11:04:57.281] TEST AUROC: 0.389148, TEST Accus: 0.780000, F1: 0.644712
+[11:04:57.282] 
+Begin: com_round = 57
+
+[11:04:57.282] Supervised Client: 0
+[11:04:57.282] --
+[11:05:14.001] Supervised Client: 1
+[11:05:14.001] --
+[11:05:30.049] Semi-Supervised Client: 2
+[11:05:30.049] --
+[11:06:01.268] Semi-Supervised Client: 3
+[11:06:01.268] --
+[11:06:34.181] Semi-Supervised Client: 4
+[11:06:34.181] --
+[11:07:05.963] Semi-Supervised Client: 5
+[11:07:05.963] --
+[11:07:37.169] Semi-Supervised Client: 6
+[11:07:37.170] --
+[11:08:08.356] Semi-Supervised Client: 7
+[11:08:08.357] --
+[11:08:39.541] Semi-Supervised Client: 8
+[11:08:39.542] --
+[11:09:10.725] Semi-Supervised Client: 9
+[11:09:10.725] --
+[11:09:44.010] Loss Avg: 0.15979069772134108, Common Round: 57, LR: 0.001 
+[11:09:49.151] TEST AUROC: 0.560017, TEST Accus: 0.570000, F1: 0.607852
+[11:09:49.151] 
+Begin: com_round = 58
+
+[11:09:49.152] Supervised Client: 0
+[11:09:49.152] --
+[11:10:04.676] Supervised Client: 1
+[11:10:04.676] --
+[11:10:20.142] Semi-Supervised Client: 2
+[11:10:20.143] --
+[11:10:52.166] Semi-Supervised Client: 3
+[11:10:52.167] --
+[11:11:23.967] Semi-Supervised Client: 4
+[11:11:23.967] --
+[11:11:55.849] Semi-Supervised Client: 5
+[11:11:55.849] --
+[11:12:27.886] Semi-Supervised Client: 6
+[11:12:27.886] --
+[11:13:00.167] Semi-Supervised Client: 7
+[11:13:00.167] --
+[11:13:32.144] Semi-Supervised Client: 8
+[11:13:32.145] --
+[11:14:03.054] Semi-Supervised Client: 9
+[11:14:03.054] --
+[11:14:34.565] Loss Avg: 0.16018607771680268, Common Round: 58, LR: 0.001 
+[11:14:39.632] TEST AUROC: 0.543697, TEST Accus: 0.590000, F1: 0.611426
+[11:14:39.632] 
+Begin: com_round = 59
+
+[11:14:39.632] Supervised Client: 0
+[11:14:39.633] --
+[11:14:54.690] Supervised Client: 1
+[11:14:54.690] --
+[11:15:10.191] Semi-Supervised Client: 2
+[11:15:10.191] --
+[11:15:40.924] Semi-Supervised Client: 3
+[11:15:40.924] --
+[11:16:11.643] Semi-Supervised Client: 4
+[11:16:11.644] --
+[11:16:42.491] Semi-Supervised Client: 5
+[11:16:42.491] --
+[11:17:13.069] Semi-Supervised Client: 6
+[11:17:13.069] --
+[11:17:44.447] Semi-Supervised Client: 7
+[11:17:44.447] --
+[11:18:15.492] Semi-Supervised Client: 8
+[11:18:15.493] --
+[11:18:46.054] Semi-Supervised Client: 9
+[11:18:46.054] --
+[11:19:17.469] Loss Avg: 0.16374073603126982, Common Round: 59, LR: 0.001 
+[11:19:22.440] TEST AUROC: 0.479940, TEST Accus: 0.430000, F1: 0.582454
+[11:19:22.441] 
+Begin: com_round = 60
+
+[11:19:22.441] Supervised Client: 0
+[11:19:22.441] --
+[11:19:37.760] Supervised Client: 1
+[11:19:37.760] --
+[11:19:52.679] Semi-Supervised Client: 2
+[11:19:52.679] --
+[11:20:23.172] Semi-Supervised Client: 3
+[11:20:23.172] --
+[11:20:54.685] Semi-Supervised Client: 4
+[11:20:54.685] --
+[11:21:25.616] Semi-Supervised Client: 5
+[11:21:25.616] --
+[11:21:56.355] Semi-Supervised Client: 6
+[11:21:56.356] --
+[11:22:28.290] Semi-Supervised Client: 7
+[11:22:28.290] --
+[11:22:58.897] Semi-Supervised Client: 8
+[11:22:58.897] --
+[11:23:30.474] Semi-Supervised Client: 9
+[11:23:30.475] --
+[11:24:03.763] Loss Avg: 0.1599953543368346, Common Round: 60, LR: 0.001 
+[11:24:08.859] TEST AUROC: 0.519038, TEST Accus: 0.690000, F1: 0.629093
+[11:24:08.860] 
+Begin: com_round = 61
+
+[11:24:08.860] Supervised Client: 0
+[11:24:08.860] --
+[11:24:25.692] Supervised Client: 1
+[11:24:25.692] --
+[11:24:42.375] Semi-Supervised Client: 2
+[11:24:42.375] --
+[11:25:14.608] Semi-Supervised Client: 3
+[11:25:14.608] --
+[11:25:46.883] Semi-Supervised Client: 4
+[11:25:46.883] --
+[11:26:18.671] Semi-Supervised Client: 5
+[11:26:18.671] --
+[11:26:50.925] Semi-Supervised Client: 6
+[11:26:50.925] --
+[11:27:22.216] Semi-Supervised Client: 7
+[11:27:22.216] --
+[11:27:53.204] Semi-Supervised Client: 8
+[11:27:53.205] --
+[11:28:24.187] Semi-Supervised Client: 9
+[11:28:24.187] --
+[11:28:55.655] Loss Avg: 0.1594339989686639, Common Round: 61, LR: 0.001 
+[11:29:00.686] TEST AUROC: 0.458150, TEST Accus: 0.580000, F1: 0.609641
+[11:29:00.687] 
+Begin: com_round = 62
+
+[11:29:00.687] Supervised Client: 0
+[11:29:00.687] --
+[11:29:17.472] Supervised Client: 1
+[11:29:17.472] --
+[11:29:32.869] Semi-Supervised Client: 2
+[11:29:32.869] --
+[11:30:05.355] Semi-Supervised Client: 3
+[11:30:05.355] --
+[11:30:38.147] Semi-Supervised Client: 4
+[11:30:38.147] --
+[11:31:09.964] Semi-Supervised Client: 5
+[11:31:09.965] --
+[11:31:42.311] Semi-Supervised Client: 6
+[11:31:42.311] --
+[11:32:14.806] Semi-Supervised Client: 7
+[11:32:14.806] --
+[11:32:45.960] Semi-Supervised Client: 8
+[11:32:45.960] --
+[11:33:17.028] Semi-Supervised Client: 9
+[11:33:17.029] --
+[11:33:50.452] Loss Avg: 0.16003047153565356, Common Round: 62, LR: 0.001 
+[11:33:55.848] TEST AUROC: 0.495574, TEST Accus: 0.560000, F1: 0.606061
+[11:33:55.849] 
+Begin: com_round = 63
+
+[11:33:55.849] Supervised Client: 0
+[11:33:55.849] --
+[11:34:11.134] Supervised Client: 1
+[11:34:11.134] --
+[11:34:26.116] Semi-Supervised Client: 2
+[11:34:26.116] --
+[11:34:56.766] Semi-Supervised Client: 3
+[11:34:56.767] --
+[11:35:27.354] Semi-Supervised Client: 4
+[11:35:27.354] --
+[11:35:57.935] Semi-Supervised Client: 5
+[11:35:57.935] --
+[11:36:28.548] Semi-Supervised Client: 6
+[11:36:28.548] --
+[11:37:00.983] Semi-Supervised Client: 7
+[11:37:00.984] --
+[11:37:33.434] Semi-Supervised Client: 8
+[11:37:33.434] --
+[11:38:05.863] Semi-Supervised Client: 9
+[11:38:05.863] --
+[11:38:39.146] Loss Avg: 0.160506832321566, Common Round: 63, LR: 0.001 
+[11:38:44.398] TEST AUROC: 0.458693, TEST Accus: 0.610000, F1: 0.614986
+[11:38:44.399] 
+Begin: com_round = 64
+
+[11:38:44.399] Supervised Client: 0
+[11:38:44.399] --
+[11:39:00.526] Supervised Client: 1
+[11:39:00.527] --
+[11:39:15.818] Semi-Supervised Client: 2
+[11:39:15.819] --
+[11:39:48.461] Semi-Supervised Client: 3
+[11:39:48.461] --
+[11:40:20.939] Semi-Supervised Client: 4
+[11:40:20.940] --
+[11:40:53.383] Semi-Supervised Client: 5
+[11:40:53.383] --
+[11:41:25.880] Semi-Supervised Client: 6
+[11:41:25.880] --
+[11:41:57.626] Semi-Supervised Client: 7
+[11:41:57.626] --
+[11:42:29.000] Semi-Supervised Client: 8
+[11:42:29.000] --
+[11:43:01.444] Semi-Supervised Client: 9
+[11:43:01.444] --
+[11:43:33.356] Loss Avg: 0.15935693213250487, Common Round: 64, LR: 0.001 
+[11:43:38.393] TEST AUROC: 0.504279, TEST Accus: 0.670000, F1: 0.625586
+[11:43:38.394] 
+Begin: com_round = 65
+
+[11:43:38.394] Supervised Client: 0
+[11:43:38.394] --
+[11:43:55.179] Supervised Client: 1
+[11:43:55.179] --
+[11:44:11.051] Semi-Supervised Client: 2
+[11:44:11.051] --
+[11:44:42.542] Semi-Supervised Client: 3
+[11:44:42.542] --
+[11:45:14.990] Semi-Supervised Client: 4
+[11:45:14.990] --
+[11:45:48.050] Semi-Supervised Client: 5
+[11:45:48.051] --
+[11:46:21.102] Semi-Supervised Client: 6
+[11:46:21.102] --
+[11:46:54.151] Semi-Supervised Client: 7
+[11:46:54.151] --
+[11:47:27.273] Semi-Supervised Client: 8
+[11:47:27.273] --
+[11:47:59.348] Semi-Supervised Client: 9
+[11:47:59.348] --
+[11:48:31.591] Loss Avg: 0.15926453342306726, Common Round: 65, LR: 0.001 
+[11:48:36.649] TEST AUROC: 0.391303, TEST Accus: 0.630000, F1: 0.618532
+[11:48:36.649] 
+Begin: com_round = 66
+
+[11:48:36.650] Supervised Client: 0
+[11:48:36.650] --
+[11:48:51.981] Supervised Client: 1
+[11:48:51.981] --
+[11:49:06.968] Semi-Supervised Client: 2
+[11:49:06.968] --
+[11:49:38.014] Semi-Supervised Client: 3
+[11:49:38.014] --
+[11:50:10.145] Semi-Supervised Client: 4
+[11:50:10.145] --
+[11:50:40.755] Semi-Supervised Client: 5
+[11:50:40.755] --
+[11:51:13.087] Semi-Supervised Client: 6
+[11:51:13.087] --
+[11:51:45.463] Semi-Supervised Client: 7
+[11:51:45.463] --
+[11:52:17.819] Semi-Supervised Client: 8
+[11:52:17.819] --
+[11:52:49.955] Semi-Supervised Client: 9
+[11:52:49.955] --
+[11:53:21.284] Loss Avg: 0.1618866748795633, Common Round: 66, LR: 0.001 
+[11:53:26.284] TEST AUROC: 0.462689, TEST Accus: 0.660000, F1: 0.623827
+[11:53:26.285] 
+Begin: com_round = 67
+
+[11:53:26.285] Supervised Client: 0
+[11:53:26.286] --
+[11:53:41.521] Supervised Client: 1
+[11:53:41.521] --
+[11:53:56.516] Semi-Supervised Client: 2
+[11:53:56.516] --
+[11:54:27.129] Semi-Supervised Client: 3
+[11:54:27.130] --
+[11:54:57.719] Semi-Supervised Client: 4
+[11:54:57.719] --
+[11:55:29.219] Semi-Supervised Client: 5
+[11:55:29.219] --
+[11:55:59.993] Semi-Supervised Client: 6
+[11:55:59.993] --
+[11:56:30.621] Semi-Supervised Client: 7
+[11:56:30.621] --
+[11:57:01.393] Semi-Supervised Client: 8
+[11:57:01.393] --
+[11:57:32.019] Semi-Supervised Client: 9
+[11:57:32.019] --
+[11:58:03.543] Loss Avg: 0.16064238391118124, Common Round: 67, LR: 0.001 
+[11:58:08.626] TEST AUROC: 0.426129, TEST Accus: 0.580000, F1: 0.609641
+[11:58:08.627] 
+Begin: com_round = 68
+
+[11:58:08.627] Supervised Client: 0
+[11:58:08.627] --
+[11:58:23.522] Supervised Client: 1
+[11:58:23.522] --
+[11:58:38.394] Semi-Supervised Client: 2
+[11:58:38.394] --
+[11:59:08.879] Semi-Supervised Client: 3
+[11:59:08.879] --
+[11:59:39.327] Semi-Supervised Client: 4
+[11:59:39.327] --
+[12:00:09.806] Semi-Supervised Client: 5
+[12:00:09.806] --
+[12:00:41.564] Semi-Supervised Client: 6
+[12:00:41.564] --
+[12:01:13.734] Semi-Supervised Client: 7
+[12:01:13.734] --
+[12:01:45.269] Semi-Supervised Client: 8
+[12:01:45.269] --
+[12:02:16.767] Semi-Supervised Client: 9
+[12:02:16.767] --
+[12:02:48.201] Loss Avg: 0.16026175134413118, Common Round: 68, LR: 0.001 
+[12:02:53.180] TEST AUROC: 0.554278, TEST Accus: 0.510000, F1: 0.597050
+[12:02:53.180] 
+Begin: com_round = 69
+
+[12:02:53.181] Supervised Client: 0
+[12:02:53.181] --
+[12:03:08.769] Supervised Client: 1
+[12:03:08.769] --
+[12:03:23.730] Semi-Supervised Client: 2
+[12:03:23.730] --
+[12:03:55.607] Semi-Supervised Client: 3
+[12:03:55.607] --
+[12:04:28.056] Semi-Supervised Client: 4
+[12:04:28.056] --
+[12:05:00.092] Semi-Supervised Client: 5
+[12:05:00.092] --
+[12:05:32.221] Semi-Supervised Client: 6
+[12:05:32.222] --
+[12:06:04.633] Semi-Supervised Client: 7
+[12:06:04.633] --
+[12:06:37.358] Semi-Supervised Client: 8
+[12:06:37.358] --
+[12:07:09.912] Semi-Supervised Client: 9
+[12:07:09.912] --
+[12:07:43.306] Loss Avg: 0.15896659255271184, Common Round: 69, LR: 0.001 
+[12:07:48.488] TEST AUROC: 0.481016, TEST Accus: 0.590000, F1: 0.611426
+[12:07:48.488] 
+Begin: com_round = 70
+
+[12:07:48.489] Supervised Client: 0
+[12:07:48.489] --
+[12:08:05.135] Supervised Client: 1
+[12:08:05.135] --
+[12:08:21.852] Semi-Supervised Client: 2
+[12:08:21.852] --
+[12:08:52.518] Semi-Supervised Client: 3
+[12:08:52.518] --
+[12:09:23.016] Semi-Supervised Client: 4
+[12:09:23.016] --
+[12:09:53.516] Semi-Supervised Client: 5
+[12:09:53.516] --
+[12:10:24.204] Semi-Supervised Client: 6
+[12:10:24.204] --
+[12:10:55.702] Semi-Supervised Client: 7
+[12:10:55.702] --
+[12:11:28.128] Semi-Supervised Client: 8
+[12:11:28.129] --
+[12:11:58.768] Semi-Supervised Client: 9
+[12:11:58.768] --
+[12:12:31.261] Loss Avg: 0.16066302779945546, Common Round: 70, LR: 0.001 
+[12:12:36.265] TEST AUROC: 0.429069, TEST Accus: 0.600000, F1: 0.613208
+[12:12:36.266] 
+Begin: com_round = 71
+
+[12:12:36.266] Supervised Client: 0
+[12:12:36.266] --
+[12:12:53.203] Supervised Client: 1
+[12:12:53.203] --
+[12:13:09.808] Semi-Supervised Client: 2
+[12:13:09.808] --
+[12:13:40.886] Semi-Supervised Client: 3
+[12:13:40.886] --
+[12:14:11.702] Semi-Supervised Client: 4
+[12:14:11.702] --
+[12:14:42.513] Semi-Supervised Client: 5
+[12:14:42.513] --
+[12:15:14.729] Semi-Supervised Client: 6
+[12:15:14.730] --
+[12:15:45.921] Semi-Supervised Client: 7
+[12:15:45.921] --
+[12:16:18.071] Semi-Supervised Client: 8
+[12:16:18.071] --
+[12:16:50.493] Semi-Supervised Client: 9
+[12:16:50.493] --
+[12:17:23.824] Loss Avg: 0.159878917260159, Common Round: 71, LR: 0.001 
+[12:17:29.071] TEST AUROC: 0.582249, TEST Accus: 0.470000, F1: 0.589780
+[12:17:29.072] 
+Begin: com_round = 72
+
+[12:17:29.073] Supervised Client: 0
+[12:17:29.073] --
+[12:17:44.958] Supervised Client: 1
+[12:17:44.958] --
+[12:18:00.963] Semi-Supervised Client: 2
+[12:18:00.963] --
+[12:18:33.253] Semi-Supervised Client: 3
+[12:18:33.253] --
+[12:19:04.677] Semi-Supervised Client: 4
+[12:19:04.677] --
+[12:19:35.303] Semi-Supervised Client: 5
+[12:19:35.303] --
+[12:20:06.542] Semi-Supervised Client: 6
+[12:20:06.542] --
+[12:20:38.805] Semi-Supervised Client: 7
+[12:20:38.805] --
+[12:21:10.422] Semi-Supervised Client: 8
+[12:21:10.422] --
+[12:21:41.017] Semi-Supervised Client: 9
+[12:21:41.017] --
+[12:22:12.534] Loss Avg: 0.16026802504943177, Common Round: 72, LR: 0.001 
+[12:22:17.608] TEST AUROC: 0.490576, TEST Accus: 0.450000, F1: 0.586124
+[12:22:17.608] 
+Begin: com_round = 73
+
+[12:22:17.608] Supervised Client: 0
+[12:22:17.609] --
+[12:22:33.228] Supervised Client: 1
+[12:22:33.229] --
+[12:22:48.426] Semi-Supervised Client: 2
+[12:22:48.426] --
+[12:23:19.054] Semi-Supervised Client: 3
+[12:23:19.054] --
+[12:23:51.380] Semi-Supervised Client: 4
+[12:23:51.381] --
+[12:24:23.807] Semi-Supervised Client: 5
+[12:24:23.807] --
+[12:24:56.286] Semi-Supervised Client: 6
+[12:24:56.286] --
+[12:25:28.720] Semi-Supervised Client: 7
+[12:25:28.720] --
+[12:26:01.135] Semi-Supervised Client: 8
+[12:26:01.135] --
+[12:26:33.548] Semi-Supervised Client: 9
+[12:26:33.548] --
+[12:27:05.707] Loss Avg: 0.16050196733558547, Common Round: 73, LR: 0.001 
+[12:27:10.821] TEST AUROC: 0.500000, TEST Accus: 0.620000, F1: 0.616761
+[12:27:10.822] 
+Begin: com_round = 74
+
+[12:27:10.822] Supervised Client: 0
+[12:27:10.822] --
+[12:27:27.481] Supervised Client: 1
+[12:27:27.481] --
+[12:27:42.608] Semi-Supervised Client: 2
+[12:27:42.608] --
+[12:28:13.330] Semi-Supervised Client: 3
+[12:28:13.330] --
+[12:28:44.893] Semi-Supervised Client: 4
+[12:28:44.893] --
+[12:29:17.518] Semi-Supervised Client: 5
+[12:29:17.518] --
+[12:29:49.404] Semi-Supervised Client: 6
+[12:29:49.404] --
+[12:30:20.114] Semi-Supervised Client: 7
+[12:30:20.115] --
+[12:30:50.703] Semi-Supervised Client: 8
+[12:30:50.703] --
+[12:31:21.292] Semi-Supervised Client: 9
+[12:31:21.292] --
+[12:31:52.756] Loss Avg: 0.16454402271510013, Common Round: 74, LR: 0.001 
+[12:31:57.960] TEST AUROC: 0.493411, TEST Accus: 0.500000, F1: 0.595238
+[12:31:57.960] 
+Begin: com_round = 75
+
+[12:31:57.961] Supervised Client: 0
+[12:31:57.961] --
+[12:32:13.821] Supervised Client: 1
+[12:32:13.821] --
+[12:32:28.876] Semi-Supervised Client: 2
+[12:32:28.876] --
+[12:33:00.609] Semi-Supervised Client: 3
+[12:33:00.609] --
+[12:33:32.967] Semi-Supervised Client: 4
+[12:33:32.968] --
+[12:34:05.693] Semi-Supervised Client: 5
+[12:34:05.693] --
+[12:34:38.164] Semi-Supervised Client: 6
+[12:34:38.165] --
+[12:35:10.654] Semi-Supervised Client: 7
+[12:35:10.654] --
+[12:35:42.310] Semi-Supervised Client: 8
+[12:35:42.310] --
+[12:36:12.942] Semi-Supervised Client: 9
+[12:36:12.942] --
+[12:36:44.471] Loss Avg: 0.15980983045433692, Common Round: 75, LR: 0.001 
+[12:36:49.440] TEST AUROC: 0.500000, TEST Accus: 0.670000, F1: 0.625586
+[12:36:49.441] 
+Begin: com_round = 76
+
+[12:36:49.441] Supervised Client: 0
+[12:36:49.441] --
+[12:37:05.976] Supervised Client: 1
+[12:37:05.976] --
+[12:37:22.880] Semi-Supervised Client: 2
+[12:37:22.880] --
+[12:37:55.128] Semi-Supervised Client: 3
+[12:37:55.128] --
+[12:38:27.404] Semi-Supervised Client: 4
+[12:38:27.404] --
+[12:39:00.074] Semi-Supervised Client: 5
+[12:39:00.074] --
+[12:39:33.087] Semi-Supervised Client: 6
+[12:39:33.087] --
+[12:40:05.781] Semi-Supervised Client: 7
+[12:40:05.782] --
+[12:40:37.762] Semi-Supervised Client: 8
+[12:40:37.762] --
+[12:41:09.100] Semi-Supervised Client: 9
+[12:41:09.101] --
+[12:41:42.477] Loss Avg: 0.15903087383353112, Common Round: 76, LR: 0.001 
+[12:41:47.636] TEST AUROC: 0.514487, TEST Accus: 0.620000, F1: 0.616761
+[12:41:47.637] 
+Begin: com_round = 77
+
+[12:41:47.637] Supervised Client: 0
+[12:41:47.637] --
+[12:42:04.177] Supervised Client: 1
+[12:42:04.177] --
+[12:42:20.106] Semi-Supervised Client: 2
+[12:42:20.106] --
+[12:42:50.713] Semi-Supervised Client: 3
+[12:42:50.713] --
+[12:43:21.630] Semi-Supervised Client: 4
+[12:43:21.630] --
+[12:43:52.345] Semi-Supervised Client: 5
+[12:43:52.345] --
+[12:44:24.427] Semi-Supervised Client: 6
+[12:44:24.428] --
+[12:44:56.873] Semi-Supervised Client: 7
+[12:44:56.873] --
+[12:45:28.822] Semi-Supervised Client: 8
+[12:45:28.822] --
+[12:45:59.489] Semi-Supervised Client: 9
+[12:45:59.489] --
+[12:46:32.417] Loss Avg: 0.1589703861116008, Common Round: 77, LR: 0.001 
+[12:46:37.433] TEST AUROC: 0.526653, TEST Accus: 0.500000, F1: 0.595238
+[12:46:37.434] 
+Begin: com_round = 78
+
+[12:46:37.434] Supervised Client: 0
+[12:46:37.434] --
+[12:46:54.187] Supervised Client: 1
+[12:46:54.188] --
+[12:47:09.449] Semi-Supervised Client: 2
+[12:47:09.449] --
+[12:47:40.250] Semi-Supervised Client: 3
+[12:47:40.251] --
+[12:48:12.373] Semi-Supervised Client: 4
+[12:48:12.373] --
+[12:48:44.741] Semi-Supervised Client: 5
+[12:48:44.741] --
+[12:49:15.331] Semi-Supervised Client: 6
+[12:49:15.331] --
+[12:49:46.879] Semi-Supervised Client: 7
+[12:49:46.879] --
+[12:50:19.175] Semi-Supervised Client: 8
+[12:50:19.176] --
+[12:50:51.689] Semi-Supervised Client: 9
+[12:50:51.689] --
+[12:51:23.604] Loss Avg: 0.15942489564926784, Common Round: 78, LR: 0.001 
+[12:51:28.645] TEST AUROC: 0.451704, TEST Accus: 0.510000, F1: 0.597050
+[12:51:28.645] 
+Begin: com_round = 79
+
+[12:51:28.646] Supervised Client: 0
+[12:51:28.646] --
+[12:51:44.081] Supervised Client: 1
+[12:51:44.081] --
+[12:52:00.282] Semi-Supervised Client: 2
+[12:52:00.282] --
+[12:52:31.514] Semi-Supervised Client: 3
+[12:52:31.514] --
+[12:53:04.433] Semi-Supervised Client: 4
+[12:53:04.433] --
+[12:53:36.512] Semi-Supervised Client: 5
+[12:53:36.513] --
+[12:54:09.320] Semi-Supervised Client: 6
+[12:54:09.320] --
+[12:54:42.169] Semi-Supervised Client: 7
+[12:54:42.169] --
+[12:55:15.252] Semi-Supervised Client: 8
+[12:55:15.252] --
+[12:55:48.318] Semi-Supervised Client: 9
+[12:55:48.318] --
+[12:56:22.435] Loss Avg: 0.1586899620248005, Common Round: 79, LR: 0.001 
+[12:56:27.719] TEST AUROC: 0.504109, TEST Accus: 0.580000, F1: 0.609641
+[12:56:27.720] 
+Begin: com_round = 80
+
+[12:56:27.720] Supervised Client: 0
+[12:56:27.720] --
+[12:56:44.518] Supervised Client: 1
+[12:56:44.518] --
+[12:57:01.361] Semi-Supervised Client: 2
+[12:57:01.361] --
+[12:57:33.753] Semi-Supervised Client: 3
+[12:57:33.753] --
+[12:58:05.619] Semi-Supervised Client: 4
+[12:58:05.619] --
+[12:58:36.287] Semi-Supervised Client: 5
+[12:58:36.287] --
+[12:59:08.143] Semi-Supervised Client: 6
+[12:59:08.143] --
+[12:59:38.599] Semi-Supervised Client: 7
+[12:59:38.600] --
+[13:00:09.221] Semi-Supervised Client: 8
+[13:00:09.221] --
+[13:00:39.677] Semi-Supervised Client: 9
+[13:00:39.677] --
+[13:01:11.128] Loss Avg: 0.16190155059183858, Common Round: 80, LR: 0.001 
+[13:01:16.135] TEST AUROC: 0.435174, TEST Accus: 0.510000, F1: 0.597050
+[13:01:16.136] 
+Begin: com_round = 81
+
+[13:01:16.136] Supervised Client: 0
+[13:01:16.136] --
+[13:01:31.313] Supervised Client: 1
+[13:01:31.314] --
+[13:01:46.362] Semi-Supervised Client: 2
+[13:01:46.362] --
+[13:02:18.662] Semi-Supervised Client: 3
+[13:02:18.662] --
+[13:02:49.547] Semi-Supervised Client: 4
+[13:02:49.547] --
+[13:03:20.174] Semi-Supervised Client: 5
+[13:03:20.174] --
+[13:03:50.820] Semi-Supervised Client: 6
+[13:03:50.821] --
+[13:04:21.567] Semi-Supervised Client: 7
+[13:04:21.568] --
+[13:04:53.479] Semi-Supervised Client: 8
+[13:04:53.479] --
+[13:05:25.696] Semi-Supervised Client: 9
+[13:05:25.696] --
+[13:05:57.190] Loss Avg: 0.15949668170307466, Common Round: 81, LR: 0.001 
+[13:06:02.169] TEST AUROC: 0.529710, TEST Accus: 0.390000, F1: 0.575072
+[13:06:02.169] 
+Begin: com_round = 82
+
+[13:06:02.169] Supervised Client: 0
+[13:06:02.169] --
+[13:06:17.187] Supervised Client: 1
+[13:06:17.187] --
+[13:06:32.994] Semi-Supervised Client: 2
+[13:06:32.994] --
+[13:07:05.270] Semi-Supervised Client: 3
+[13:07:05.270] --
+[13:07:37.700] Semi-Supervised Client: 4
+[13:07:37.700] --
+[13:08:09.997] Semi-Supervised Client: 5
+[13:08:09.998] --
+[13:08:42.268] Semi-Supervised Client: 6
+[13:08:42.268] --
+[13:09:14.553] Semi-Supervised Client: 7
+[13:09:14.554] --
+[13:09:45.522] Semi-Supervised Client: 8
+[13:09:45.522] --
+[13:10:16.857] Semi-Supervised Client: 9
+[13:10:16.857] --
+[13:10:49.992] Loss Avg: 0.15923726615252567, Common Round: 82, LR: 0.001 
+[13:10:55.014] TEST AUROC: 0.523582, TEST Accus: 0.520000, F1: 0.598859
+[13:10:55.014] 
+Begin: com_round = 83
+
+[13:10:55.015] Supervised Client: 0
+[13:10:55.015] --
+[13:11:10.181] Supervised Client: 1
+[13:11:10.181] --
+[13:11:25.634] Semi-Supervised Client: 2
+[13:11:25.634] --
+[13:11:56.846] Semi-Supervised Client: 3
+[13:11:56.847] --
+[13:12:28.327] Semi-Supervised Client: 4
+[13:12:28.327] --
+[13:12:59.733] Semi-Supervised Client: 5
+[13:12:59.733] --
+[13:13:31.533] Semi-Supervised Client: 6
+[13:13:31.533] --
+[13:14:02.716] Semi-Supervised Client: 7
+[13:14:02.716] --
+[13:14:33.930] Semi-Supervised Client: 8
+[13:14:33.930] --
+[13:15:04.905] Semi-Supervised Client: 9
+[13:15:04.905] --
+[13:15:36.420] Loss Avg: 0.15880162488134705, Common Round: 83, LR: 0.001 
+[13:15:41.341] TEST AUROC: 0.469570, TEST Accus: 0.680000, F1: 0.627341
+[13:15:41.341] 
+Begin: com_round = 84
+
+[13:15:41.342] Supervised Client: 0
+[13:15:41.342] --
+[13:15:56.352] Supervised Client: 1
+[13:15:56.352] --
+[13:16:12.616] Semi-Supervised Client: 2
+[13:16:12.616] --
+[13:16:45.334] Semi-Supervised Client: 3
+[13:16:45.334] --
+[13:17:18.167] Semi-Supervised Client: 4
+[13:17:18.168] --
+[13:17:51.091] Semi-Supervised Client: 5
+[13:17:51.092] --
+[13:18:23.237] Semi-Supervised Client: 6
+[13:18:23.237] --
+[13:18:55.769] Semi-Supervised Client: 7
+[13:18:55.769] --
+[13:19:28.075] Semi-Supervised Client: 8
+[13:19:28.075] --
+[13:20:00.010] Semi-Supervised Client: 9
+[13:20:00.011] --
+[13:20:31.424] Loss Avg: 0.1587363478994865, Common Round: 84, LR: 0.001 
+[13:20:36.929] TEST AUROC: 0.568700, TEST Accus: 0.580000, F1: 0.609641
+[13:20:36.930] 
+Begin: com_round = 85
+
+[13:20:36.930] Supervised Client: 0
+[13:20:36.930] --
+[13:20:52.584] Supervised Client: 1
+[13:20:52.584] --
+[13:21:08.178] Semi-Supervised Client: 2
+[13:21:08.178] --
+[13:21:38.852] Semi-Supervised Client: 3
+[13:21:38.852] --
+[13:22:09.491] Semi-Supervised Client: 4
+[13:22:09.492] --
+[13:22:40.398] Semi-Supervised Client: 5
+[13:22:40.398] --
+[13:23:12.400] Semi-Supervised Client: 6
+[13:23:12.400] --
+[13:23:44.700] Semi-Supervised Client: 7
+[13:23:44.700] --
+[13:24:17.035] Semi-Supervised Client: 8
+[13:24:17.035] --
+[13:24:49.060] Semi-Supervised Client: 9
+[13:24:49.060] --
+[13:25:20.397] Loss Avg: 0.15882668182073922, Common Round: 85, LR: 0.001 
+[13:25:25.382] TEST AUROC: 0.483321, TEST Accus: 0.590000, F1: 0.611426
+[13:25:25.382] 
+Begin: com_round = 86
+
+[13:25:25.383] Supervised Client: 0
+[13:25:25.383] --
+[13:25:42.231] Supervised Client: 1
+[13:25:42.231] --
+[13:25:59.100] Semi-Supervised Client: 2
+[13:25:59.101] --
+[13:26:30.566] Semi-Supervised Client: 3
+[13:26:30.566] --
+[13:27:02.972] Semi-Supervised Client: 4
+[13:27:02.973] --
+[13:27:35.465] Semi-Supervised Client: 5
+[13:27:35.465] --
+[13:28:07.980] Semi-Supervised Client: 6
+[13:28:07.980] --
+[13:28:40.452] Semi-Supervised Client: 7
+[13:28:40.452] --
+[13:29:13.153] Semi-Supervised Client: 8
+[13:29:13.153] --
+[13:29:45.222] Semi-Supervised Client: 9
+[13:29:45.222] --
+[13:30:18.561] Loss Avg: 0.16426717317292722, Common Round: 86, LR: 0.001 
+[13:30:23.615] TEST AUROC: 0.475113, TEST Accus: 0.450000, F1: 0.586124
+[13:30:23.616] 
+Begin: com_round = 87
+
+[13:30:23.616] Supervised Client: 0
+[13:30:23.616] --
+[13:30:40.403] Supervised Client: 1
+[13:30:40.403] --
+[13:30:57.332] Semi-Supervised Client: 2
+[13:30:57.332] --
+[13:31:29.858] Semi-Supervised Client: 3
+[13:31:29.859] --
+[13:32:02.386] Semi-Supervised Client: 4
+[13:32:02.387] --
+[13:32:34.580] Semi-Supervised Client: 5
+[13:32:34.580] --
+[13:33:05.181] Semi-Supervised Client: 6
+[13:33:05.181] --
+[13:33:37.002] Semi-Supervised Client: 7
+[13:33:37.003] --
+[13:34:08.425] Semi-Supervised Client: 8
+[13:34:08.425] --
+[13:34:40.879] Semi-Supervised Client: 9
+[13:34:40.879] --
+[13:35:13.363] Loss Avg: 0.1591814814542886, Common Round: 87, LR: 0.001 
+[13:35:18.691] TEST AUROC: 0.459684, TEST Accus: 0.570000, F1: 0.607852
+[13:35:18.691] 
+Begin: com_round = 88
+
+[13:35:18.692] Supervised Client: 0
+[13:35:18.692] --
+[13:35:35.302] Supervised Client: 1
+[13:35:35.303] --
+[13:35:50.612] Semi-Supervised Client: 2
+[13:35:50.612] --
+[13:36:22.362] Semi-Supervised Client: 3
+[13:36:22.363] --
+[13:36:54.627] Semi-Supervised Client: 4
+[13:36:54.627] --
+[13:37:27.045] Semi-Supervised Client: 5
+[13:37:27.045] --
+[13:37:58.898] Semi-Supervised Client: 6
+[13:37:58.898] --
+[13:38:31.010] Semi-Supervised Client: 7
+[13:38:31.010] --
+[13:39:02.099] Semi-Supervised Client: 8
+[13:39:02.099] --
+[13:39:33.948] Semi-Supervised Client: 9
+[13:39:33.948] --
+[13:40:06.079] Loss Avg: 0.15934206618985627, Common Round: 88, LR: 0.001 
+[13:40:11.115] TEST AUROC: 0.489928, TEST Accus: 0.540000, F1: 0.602467
+[13:40:11.116] 
+Begin: com_round = 89
+
+[13:40:11.116] Supervised Client: 0
+[13:40:11.116] --
+[13:40:26.626] Supervised Client: 1
+[13:40:26.626] --
+[13:40:41.625] Semi-Supervised Client: 2
+[13:40:41.625] --
+[13:41:12.557] Semi-Supervised Client: 3
+[13:41:12.557] --
+[13:41:44.673] Semi-Supervised Client: 4
+[13:41:44.674] --
+[13:42:15.264] Semi-Supervised Client: 5
+[13:42:15.264] --
+[13:42:45.860] Semi-Supervised Client: 6
+[13:42:45.860] --
+[13:43:17.603] Semi-Supervised Client: 7
+[13:43:17.603] --
+[13:43:49.802] Semi-Supervised Client: 8
+[13:43:49.802] --
+[13:44:20.379] Semi-Supervised Client: 9
+[13:44:20.379] --
+[13:44:51.834] Loss Avg: 0.1592013133650074, Common Round: 89, LR: 0.001 
+[13:44:56.919] TEST AUROC: 0.500229, TEST Accus: 0.730000, F1: 0.636067
+[13:44:56.920] 
+Begin: com_round = 90
+
+[13:44:56.920] Supervised Client: 0
+[13:44:56.920] --
+[13:45:13.092] Supervised Client: 1
+[13:45:13.092] --
+[13:45:29.763] Semi-Supervised Client: 2
+[13:45:29.764] --
+[13:46:00.280] Semi-Supervised Client: 3
+[13:46:00.280] --
+[13:46:30.780] Semi-Supervised Client: 4
+[13:46:30.780] --
+[13:47:01.643] Semi-Supervised Client: 5
+[13:47:01.643] --
+[13:47:32.193] Semi-Supervised Client: 6
+[13:47:32.193] --
+[13:48:02.735] Semi-Supervised Client: 7
+[13:48:02.735] --
+[13:48:33.296] Semi-Supervised Client: 8
+[13:48:33.296] --
+[13:49:03.802] Semi-Supervised Client: 9
+[13:49:03.802] --
+[13:49:35.152] Loss Avg: 0.15831190105739307, Common Round: 90, LR: 0.001 
+[13:49:40.205] TEST AUROC: 0.542696, TEST Accus: 0.620000, F1: 0.616761
+[13:49:40.206] 
+Begin: com_round = 91
+
+[13:49:40.206] Supervised Client: 0
+[13:49:40.206] --
+[13:49:55.979] Supervised Client: 1
+[13:49:55.979] --
+[13:50:11.491] Semi-Supervised Client: 2
+[13:50:11.491] --
+[13:50:43.994] Semi-Supervised Client: 3
+[13:50:43.995] --
+[13:51:17.129] Semi-Supervised Client: 4
+[13:51:17.129] --
+[13:51:50.216] Semi-Supervised Client: 5
+[13:51:50.217] --
+[13:52:22.050] Semi-Supervised Client: 6
+[13:52:22.050] --
+[13:52:54.187] Semi-Supervised Client: 7
+[13:52:54.187] --
+[13:53:25.637] Semi-Supervised Client: 8
+[13:53:25.638] --
+[13:53:57.591] Semi-Supervised Client: 9
+[13:53:57.591] --
+[13:54:31.279] Loss Avg: 0.16156977528748523, Common Round: 91, LR: 0.001 
+[13:54:36.410] TEST AUROC: 0.590474, TEST Accus: 0.590000, F1: 0.611426
+[13:54:36.410] 
+Begin: com_round = 92
+
+[13:54:36.410] Supervised Client: 0
+[13:54:36.411] --
+[13:54:51.562] Supervised Client: 1
+[13:54:51.562] --
+[13:55:06.661] Semi-Supervised Client: 2
+[13:55:06.661] --
+[13:55:37.402] Semi-Supervised Client: 3
+[13:55:37.402] --
+[13:56:08.042] Semi-Supervised Client: 4
+[13:56:08.042] --
+[13:56:38.834] Semi-Supervised Client: 5
+[13:56:38.834] --
+[13:57:10.384] Semi-Supervised Client: 6
+[13:57:10.385] --
+[13:57:41.850] Semi-Supervised Client: 7
+[13:57:41.850] --
+[13:58:13.201] Semi-Supervised Client: 8
+[13:58:13.202] --
+[13:58:45.008] Semi-Supervised Client: 9
+[13:58:45.008] --
+[13:59:16.853] Loss Avg: 0.1603630653386724, Common Round: 92, LR: 0.001 
+[13:59:21.829] TEST AUROC: 0.434020, TEST Accus: 0.480000, F1: 0.591603
+[13:59:21.830] 
+Begin: com_round = 93
+
+[13:59:21.830] Supervised Client: 0
+[13:59:21.830] --
+[13:59:38.615] Supervised Client: 1
+[13:59:38.616] --
+[13:59:55.382] Semi-Supervised Client: 2
+[13:59:55.382] --
+[14:00:27.335] Semi-Supervised Client: 3
+[14:00:27.336] --
+[14:00:58.633] Semi-Supervised Client: 4
+[14:00:58.633] --
+[14:01:30.132] Semi-Supervised Client: 5
+[14:01:30.132] --
+[14:02:03.397] Semi-Supervised Client: 6
+[14:02:03.397] --
+[14:02:35.782] Semi-Supervised Client: 7
+[14:02:35.782] --
+[14:03:07.399] Semi-Supervised Client: 8
+[14:03:07.399] --
+[14:03:38.876] Semi-Supervised Client: 9
+[14:03:38.876] --
+[14:04:10.913] Loss Avg: 0.15943554526999254, Common Round: 93, LR: 0.001 
+[14:04:15.973] TEST AUROC: 0.545803, TEST Accus: 0.460000, F1: 0.587954
+[14:04:15.974] 
+Begin: com_round = 94
+
+[14:04:15.974] Supervised Client: 0
+[14:04:15.974] --
+[14:04:31.551] Supervised Client: 1
+[14:04:31.551] --
+[14:04:47.034] Semi-Supervised Client: 2
+[14:04:47.034] --
+[14:05:18.369] Semi-Supervised Client: 3
+[14:05:18.369] --
+[14:05:50.078] Semi-Supervised Client: 4
+[14:05:50.078] --
+[14:06:21.786] Semi-Supervised Client: 5
+[14:06:21.786] --
+[14:06:52.452] Semi-Supervised Client: 6
+[14:06:52.452] --
+[14:07:23.026] Semi-Supervised Client: 7
+[14:07:23.026] --
+[14:07:53.785] Semi-Supervised Client: 8
+[14:07:53.786] --
+[14:08:24.390] Semi-Supervised Client: 9
+[14:08:24.390] --
+[14:08:55.883] Loss Avg: 0.158969905116299, Common Round: 94, LR: 0.001 
+[14:09:00.894] TEST AUROC: 0.481466, TEST Accus: 0.760000, F1: 0.641264
+[14:09:00.895] 
+Begin: com_round = 95
+
+[14:09:00.895] Supervised Client: 0
+[14:09:00.895] --
+[14:09:16.783] Supervised Client: 1
+[14:09:16.783] --
+[14:09:32.510] Semi-Supervised Client: 2
+[14:09:32.510] --
+[14:10:04.218] Semi-Supervised Client: 3
+[14:10:04.218] --
+[14:10:35.107] Semi-Supervised Client: 4
+[14:10:35.107] --
+[14:11:07.070] Semi-Supervised Client: 5
+[14:11:07.070] --
+[14:11:37.848] Semi-Supervised Client: 6
+[14:11:37.848] --
+[14:12:09.775] Semi-Supervised Client: 7
+[14:12:09.775] --
+[14:12:42.296] Semi-Supervised Client: 8
+[14:12:42.296] --
+[14:13:14.179] Semi-Supervised Client: 9
+[14:13:14.179] --
+[14:13:45.936] Loss Avg: 0.16209063471813517, Common Round: 95, LR: 0.001 
+[14:13:50.871] TEST AUROC: 0.459514, TEST Accus: 0.510000, F1: 0.597050
+[14:13:50.872] 
+Begin: com_round = 96
+
+[14:13:50.872] Supervised Client: 0
+[14:13:50.872] --
+[14:14:06.028] Supervised Client: 1
+[14:14:06.029] --
+[14:14:21.121] Semi-Supervised Client: 2
+[14:14:21.121] --
+[14:14:53.584] Semi-Supervised Client: 3
+[14:14:53.584] --
+[14:15:25.599] Semi-Supervised Client: 4
+[14:15:25.599] --
+[14:15:57.375] Semi-Supervised Client: 5
+[14:15:57.375] --
+[14:16:28.567] Semi-Supervised Client: 6
+[14:16:28.567] --
+[14:17:00.918] Semi-Supervised Client: 7
+[14:17:00.918] --
+[14:17:32.733] Semi-Supervised Client: 8
+[14:17:32.733] --
+[14:18:03.452] Semi-Supervised Client: 9
+[14:18:03.452] --
+[14:18:35.074] Loss Avg: 0.1628217152298682, Common Round: 96, LR: 0.001 
+[14:18:40.113] TEST AUROC: 0.515022, TEST Accus: 0.590000, F1: 0.611426
+[14:18:40.114] 
+Begin: com_round = 97
+
+[14:18:40.114] Supervised Client: 0
+[14:18:40.114] --
+[14:18:55.112] Supervised Client: 1
+[14:18:55.112] --
+[14:19:11.484] Semi-Supervised Client: 2
+[14:19:11.484] --
+[14:19:43.617] Semi-Supervised Client: 3
+[14:19:43.618] --
+[14:20:14.198] Semi-Supervised Client: 4
+[14:20:14.198] --
+[14:20:45.543] Semi-Supervised Client: 5
+[14:20:45.543] --
+[14:21:17.227] Semi-Supervised Client: 6
+[14:21:17.228] --
+[14:21:47.885] Semi-Supervised Client: 7
+[14:21:47.885] --
+[14:22:18.520] Semi-Supervised Client: 8
+[14:22:18.521] --
+[14:22:49.441] Semi-Supervised Client: 9
+[14:22:49.441] --
+[14:23:20.784] Loss Avg: 0.15933021711720025, Common Round: 97, LR: 0.001 
+[14:23:25.925] TEST AUROC: 0.551409, TEST Accus: 0.550000, F1: 0.604265
+[14:23:25.926] 
+Begin: com_round = 98
+
+[14:23:25.926] Supervised Client: 0
+[14:23:25.926] --
+[14:23:41.975] Supervised Client: 1
+[14:23:41.975] --
+[14:23:59.055] Semi-Supervised Client: 2
+[14:23:59.055] --
+[14:24:31.132] Semi-Supervised Client: 3
+[14:24:31.132] --
+[14:25:04.348] Semi-Supervised Client: 4
+[14:25:04.349] --
+[14:25:37.105] Semi-Supervised Client: 5
+[14:25:37.106] --
+[14:26:09.237] Semi-Supervised Client: 6
+[14:26:09.237] --
+[14:26:41.281] Semi-Supervised Client: 7
+[14:26:41.281] --
+[14:27:13.571] Semi-Supervised Client: 8
+[14:27:13.572] --
+[14:27:44.325] Semi-Supervised Client: 9
+[14:27:44.325] --
+[14:28:16.640] Loss Avg: 0.1606777728048407, Common Round: 98, LR: 0.001 
+[14:28:21.756] TEST AUROC: 0.546135, TEST Accus: 0.600000, F1: 0.613208
+[14:28:21.757] 
+Begin: com_round = 99
+
+[14:28:21.757] Supervised Client: 0
+[14:28:21.758] --
+[14:28:36.747] Supervised Client: 1
+[14:28:36.748] --
+[14:28:51.904] Semi-Supervised Client: 2
+[14:28:51.905] --
+[14:29:22.491] Semi-Supervised Client: 3
+[14:29:22.491] --
+[14:29:53.600] Semi-Supervised Client: 4
+[14:29:53.600] --
+[14:30:24.967] Semi-Supervised Client: 5
+[14:30:24.968] --
+[14:30:56.683] Semi-Supervised Client: 6
+[14:30:56.683] --
+[14:31:28.140] Semi-Supervised Client: 7
+[14:31:28.140] --
+[14:32:00.056] Semi-Supervised Client: 8
+[14:32:00.056] --
+[14:32:30.625] Semi-Supervised Client: 9
+[14:32:30.625] --
+[14:33:03.607] Loss Avg: 0.15886606763577385, Common Round: 99, LR: 0.001 
+[14:33:08.662] TEST AUROC: 0.563947, TEST Accus: 0.624000, F1: 0.621426
+[14:33:08.662] 
+Begin: com_round = 100
+
+[14:33:08.663] Semi-Supervised Client: 2
+[14:33:08.663] --
+[14:33:40.522] Semi-Supervised Client: 3
+[14:33:40.522] --
+[14:34:11.544] Semi-Supervised Client: 4
+[14:34:11.544] --
+[14:34:42.342] Semi-Supervised Client: 5
+[14:34:42.342] --
+[14:35:13.087] Semi-Supervised Client: 6
+[14:35:13.087] --
+[14:35:43.846] Semi-Supervised Client: 7
+[14:35:43.846] --
+[14:36:14.373] Semi-Supervised Client: 8
+[14:36:14.373] --
+[14:36:45.141] Semi-Supervised Client: 9
+[14:36:45.141] --
+[14:37:18.142] Loss Avg: 0.0032918424397146077, Common Round: 100, LR: 0.001 
+[14:37:23.170] TEST AUROC: 0.580663, TEST Accus: 0.663200, F1: 0.648859
